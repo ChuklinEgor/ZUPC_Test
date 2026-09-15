@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7e9a8687-6787-4412-997c-662ecd3c0f75" extendedConfigurationObject="026cd14d-3893-446e-bd65-a3b997178403">
+  <producedTypes>
+    <refType typeId="234515e4-7291-4a3d-983a-0f145f87a0a1" valueTypeId="b1bbe77f-e9f6-4f34-aa9b-8baf90223cd8"/>
+    <listType typeId="db3b7d63-e163-471f-a180-c75591b94259" valueTypeId="b2dcfbc3-2b91-47e5-9d88-e56032ee3bba"/>
+    <managerType typeId="3509c0c3-0d8a-4c08-b9ff-2cc1db09a83a" valueTypeId="43101164-2251-4702-aaa3-88b3b1f0d744"/>
+  </producedTypes>
+  <name>ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

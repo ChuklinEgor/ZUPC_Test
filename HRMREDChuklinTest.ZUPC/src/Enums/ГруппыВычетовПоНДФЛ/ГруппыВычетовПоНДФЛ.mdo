@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aae65059-85a0-4123-9f5f-ad55d4b777e3" extendedConfigurationObject="11d589e5-6a05-474f-b2d4-b1738a598979">
+  <producedTypes>
+    <refType typeId="df595c15-0885-4717-81a2-8051c2a3ab66" valueTypeId="358e4062-ebe2-4a4c-b264-90e63e5defcb"/>
+    <listType typeId="2135ffe4-a048-4a8c-aa7a-44329a604e56" valueTypeId="a8500ddd-9d54-4101-a36d-94ce4671d626"/>
+    <managerType typeId="5a00e77d-6e04-4f5c-9a2d-7ca82eb082a9" valueTypeId="08dfa02b-1604-4825-86e6-92f561fae442"/>
+  </producedTypes>
+  <name>ГруппыВычетовПоНДФЛ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

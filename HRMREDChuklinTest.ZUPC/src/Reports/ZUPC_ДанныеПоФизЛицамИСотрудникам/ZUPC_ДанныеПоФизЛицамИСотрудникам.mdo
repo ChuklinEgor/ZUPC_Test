@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4185c8fc-8bba-4e4b-b5c1-115729022f85">
+  <producedTypes>
+    <objectType typeId="123c93e1-40af-4d81-8c4d-e2b27bdaa539" valueTypeId="0f5cad8c-b20c-45c0-a9c5-e72e815ca654"/>
+    <managerType typeId="d50dac6a-f927-41f0-aed6-667f5f691fab" valueTypeId="c4408f1f-2e92-4d6a-8a6b-c53f654b5daa"/>
+  </producedTypes>
+  <name>ZUPC_ДанныеПоФизЛицамИСотрудникам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные по физ лицам и сотрудникам(ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_ДанныеПоФизЛицамИСотрудникам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="519d348e-6b4b-4418-9387-01d00d8b33ba">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="398d7c16-1082-43ac-bffa-2d8c7f2127fb">
+  <producedTypes>
+    <refType typeId="1ce57a7a-c08c-497b-98f7-12ca74403af1" valueTypeId="6a62e898-bb14-44da-83d4-9d883882bec1"/>
+    <listType typeId="43df86b2-b673-4f69-8bad-5ce1b76bfcdf" valueTypeId="e7e141c0-b870-4128-8d7b-b8b3abea527f"/>
+    <managerType typeId="996582c0-d782-4ea7-90af-743cb9af7314" valueTypeId="27cb0c56-a491-440c-bbdc-7da64d2ea371"/>
+  </producedTypes>
+  <name>ZUPC_SearchSource</name>
+  <synonym>
+    <key>ru</key>
+    <value>Search sources</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="804eb5c9-11d6-4955-86da-81049920c942">
+    <name>DirectSearch</name>
+    <synonym>
+      <key>ru</key>
+      <value>Direct search</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34e7f9f5-e9ce-40ea-a2bf-fda265e1bfc7">
+    <name>Rehiring</name>
+    <synonym>
+      <key>ru</key>
+      <value>Re-hiring</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a0c08c30-d702-4b99-861b-5d06f90b9413">
+    <name>Referral</name>
+    <synonym>
+      <key>ru</key>
+      <value>Referral</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b10f40f-0b32-4a31-9bf4-90cc0ce30d12">
+    <name>Agency</name>
+    <synonym>
+      <key>ru</key>
+      <value>Agency</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

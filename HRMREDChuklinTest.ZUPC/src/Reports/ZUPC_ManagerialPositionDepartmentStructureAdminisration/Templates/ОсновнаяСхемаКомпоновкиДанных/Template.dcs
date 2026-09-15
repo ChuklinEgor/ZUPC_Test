@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФактическаяДолжность</dataPath>
+			<field>ФактическаяДолжность</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фактическая должность</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отдел</dataPath>
+			<field>Отдел</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отдел</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФизическоеЛицо</dataPath>
+			<field>ФизическоеЛицо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физическое лицо</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Руководитель</dataPath>
+			<field>Руководитель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Руководитель</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник КАК Сотрудник,
+	ТекущиеКадровыеДанныеСотрудников.ГоловнаяОрганизация КАК Организация,
+	ТекущиеКадровыеДанныеСотрудников.ДатаПриема КАК ДатаПриема,
+	1 КАК Количество,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.ВАрхиве КАК ВАрхиве,
+	ТекущиеКадровыеДанныеСотрудников.ФизическоеЛицо.ДатаРождения КАК ДатаРождения,
+	ТекущиеКадровыеДанныеСотрудников.ФизическоеЛицо.Пол КАК Пол,
+	ТекущиеКадровыеДанныеСотрудников.ФизическоеЛицо.ИНН КАК ИНН,
+	ТекущиеКадровыеДанныеСотрудников.ФизическоеЛицо.СтраховойНомерПФР КАК СтраховойНомерПФР,
+	ТекущиеКадровыеДанныеСотрудников.ФизическоеЛицо.МестоРождения КАК МестоРождения,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.Руководитель КАК Руководитель,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.Возраст КАК Возраст,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.ФактическаяДолжность КАК ФактическаяДолжность,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.Офис КАК Офис,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.НомерМеста КАК НомерМеста,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.ОрганизоватьРабочееМесто КАК ОрганизоватьРабочееМесто,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.СоздатьАккаунт КАК СоздатьАккаунт,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.Пропуск КАК Пропуск,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.МобильныйТелефон КАК МобильныйТелефон,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.КомментарииHR КАК КомментарииHR,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.Спеллинг КАК Спеллинг,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.Department КАК Отдел,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.Location КАК Город,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.УдаленнаяРабота КАК УдаленнаяРабота,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.Валюта КАК Валюта,
+	ТекущиеКадровыеДанныеСотрудников.ФизическоеЛицо КАК ФизическоеЛицо
+ПОМЕСТИТЬ ВТ_ТекДанные
+ИЗ
+	РегистрСведений.ТекущиеКадровыеДанныеСотрудников КАК ТекущиеКадровыеДанныеСотрудников
+ГДЕ
+	ТекущиеКадровыеДанныеСотрудников.ДатаУвольнения = ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+	И ТекущиеКадровыеДанныеСотрудников.ДатаПриема &lt;&gt; ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ТекДанные.Руководитель КАК Руководитель
+ПОМЕСТИТЬ ВТ_Рук
+ИЗ
+	ВТ_ТекДанные КАК ВТ_ТекДанные
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_Рук.Руководитель КАК ФизическоеЛицо,
+	ВТ_ТекДанные.Сотрудник КАК Руководитель,
+	ВТ_ТекДанные.Организация КАК Организация,
+	ВТ_ТекДанные.ФактическаяДолжность КАК ФактическаяДолжность,
+	ВТ_ТекДанные.Отдел КАК Отдел
+ИЗ
+	ВТ_Рук КАК ВТ_Рук
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТ_ТекДанные КАК ВТ_ТекДанные
+		ПО ВТ_Рук.Руководитель = ВТ_ТекДанные.ФизическоеЛицо
+
+СГРУППИРОВАТЬ ПО
+	ВТ_Рук.Руководитель,
+	ВТ_ТекДанные.Сотрудник,
+	ВТ_ТекДанные.Организация,
+	ВТ_ТекДанные.ФактическаяДолжность,
+	ВТ_ТекДанные.Отдел</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Managerial position and department structure administration</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СистемныеПоля.НомерПоПорядку</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Руководитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФактическаяДолжность</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Отдел</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Сотрудник</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>dfe698b8-02ae-4819-8ce6-f8e0afea9b21</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1831b33a-6c24-4119-8322-4eccb2edddbf">
+  <producedTypes>
+    <objectType typeId="642d9719-777d-46be-a8dc-4f42cbd9c03d" valueTypeId="6ed2e339-ab8e-4309-9569-7865f9ac7a11"/>
+    <managerType typeId="7175bf57-8812-44bf-8c36-b59c72507dd2" valueTypeId="a4cf4d69-d990-41fc-9aea-6ed8bcdfc0fb"/>
+  </producedTypes>
+  <name>ZUPC_RecruitingAnalytics</name>
+  <synonym>
+    <key>ru</key>
+    <value>Recruiting analytics (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_RecruitingAnalytics.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="230e47e6-0b2e-400a-9e04-b39e4a718775">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

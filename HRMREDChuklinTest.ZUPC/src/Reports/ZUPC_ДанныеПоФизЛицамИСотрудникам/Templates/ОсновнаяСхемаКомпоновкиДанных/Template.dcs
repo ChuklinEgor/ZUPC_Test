@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ZUPC_DateJoingGroupСотр</dataPath>
+			<field>ZUPC_DateJoingGroupСотр</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ZUPC date joing group сотр</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>DateJoingGroupФизЛицо</dataPath>
+			<field>DateJoingGroupФизЛицо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Date joing group физ лицо</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФизическоеЛицо</dataPath>
+			<field>ФизическоеЛицо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физическое лицо</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпеллингФизЛицо</dataPath>
+			<field>СпеллингФизЛицо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Спеллинг физ лицо</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпеллингСотр</dataPath>
+			<field>СпеллингСотр</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Спеллинг сотр</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаименованиеСлужебное</dataPath>
+			<field>НаименованиеСлужебное</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ZUPC_ActualDepartmentName</dataPath>
+			<field>ZUPC_ActualDepartmentName</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Пол</dataPath>
+			<field>Пол</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ZUPC_Desk_Team</dataPath>
+			<field>ZUPC_Desk_Team</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ZUPC_ActualPositionTitle</dataPath>
+			<field>ZUPC_ActualPositionTitle</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ZUPC_Locations</dataPath>
+			<field>ZUPC_Locations</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаРождения</dataPath>
+			<field>ДатаРождения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИНН</dataPath>
+			<field>ИНН</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоРождения</dataPath>
+			<field>МестоРождения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтраховойНомерПФР</dataPath>
+			<field>СтраховойНомерПФР</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ФизическиеЛица.Ссылка КАК ФизическоеЛицо,
+	ФизическиеЛица.ZUPC_DateJoingGroup КАК DateJoingGroupФизЛицо,
+	ФизическиеЛица.ZUPC_Спеллинг КАК СпеллингФизЛицо,
+	Сотрудники.Ссылка КАК Сотрудник,
+	Сотрудники.ZUPC_DateJoingGroup КАК ZUPC_DateJoingGroupСотр,
+	Сотрудники.Спеллинг КАК СпеллингСотр,
+	Сотрудники.ZUPC_ActualDepartmentName КАК ZUPC_ActualDepartmentName,
+	Сотрудники.ZUPC_Desk_Team КАК ZUPC_Desk_Team,
+	Сотрудники.ZUPC_ActualPositionTitle КАК ZUPC_ActualPositionTitle,
+	Сотрудники.ZUPC_Locations КАК ZUPC_Locations,
+	ФизическиеЛица.ДатаРождения КАК ДатаРождения,
+	ФизическиеЛица.Пол КАК Пол,
+	ФизическиеЛица.ИНН КАК ИНН,
+	ФизическиеЛица.МестоРождения КАК МестоРождения,
+	ФизическиеЛица.НаименованиеСлужебное КАК НаименованиеСлужебное,
+	ФизическиеЛица.СтраховойНомерПФР КАК СтраховойНомерПФР
+ИЗ
+	Справочник.ФизическиеЛица КАК ФизическиеЛица
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Сотрудники КАК Сотрудники
+		ПО ФизическиеЛица.Ссылка = Сотрудники.ФизическоеЛицо
+
+УПОРЯДОЧИТЬ ПО
+	DateJoingGroupФизЛицо</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФизическоеЛицо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СпеллингФизЛицо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>DateJoingGroupФизЛицо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сотрудник</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СпеллингСотр</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ZUPC_DateJoingGroupСотр</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаРождения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МестоРождения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИНН</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Пол</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтраховойНомерПФР</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ZUPC_ActualDepartmentName</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>0e75e077-5a4a-4635-8152-7d9f6b3e5454</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ZUPC_ActualPositionTitle</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>573a9165-c80d-47e4-98d4-58536572c024</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ZUPC_Desk_Team</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>3bd2db09-0aff-40c7-ba94-e523a6a837b8</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ZUPC_Locations</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>c4d65a32-94a6-4482-913a-f829112aaefa</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

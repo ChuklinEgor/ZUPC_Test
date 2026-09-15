@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffcf869d-d76e-494a-8ec4-490ab6df9fd0">
+  <producedTypes>
+    <objectType typeId="26db55a9-5404-4d8f-845d-2f750602270a" valueTypeId="ca4461c7-380d-4f26-b4bb-84facd0a1f0c"/>
+    <managerType typeId="ee5a394f-e3af-4022-9d90-6acf4cd86a2e" valueTypeId="ea885b04-e95f-46d3-a08b-bfb77d705ef9"/>
+  </producedTypes>
+  <name>ZUPC_ОтчетПоРабочиМестам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по рабочим местам (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ZUPC_ОтчетПоРабочиМестам.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ZUPC_ОтчетПоРабочиМестам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="1fc1e14f-22eb-492f-a41e-d454121917b6">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e3ce9ba2-1d11-47a2-b7a8-86c3f5a7e24e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

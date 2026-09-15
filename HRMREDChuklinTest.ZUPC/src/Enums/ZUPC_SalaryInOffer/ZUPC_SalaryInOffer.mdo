@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a04ac1b-622c-4abf-84d5-aebcca1b70a1">
+  <producedTypes>
+    <refType typeId="0328eee8-67db-44c0-b42f-b53e2720aaab" valueTypeId="07d9a636-1108-49e4-b565-97f352ab0928"/>
+    <listType typeId="856c1051-43c8-49fb-821a-8e5c415f7efe" valueTypeId="919abd79-cf63-418f-93e4-5754fe082276"/>
+    <managerType typeId="0b4c8680-fc43-4296-8210-79592a0d7990" valueTypeId="651ebf8e-c70c-4418-b5df-d28cedfed165"/>
+  </producedTypes>
+  <name>ZUPC_SalaryInOffer</name>
+  <synonym>
+    <key>ru</key>
+    <value>ZUPC salary in offer</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fc4c5701-208a-43b2-995f-17beafc7759c">
+    <name>Net</name>
+    <synonym>
+      <key>ru</key>
+      <value>Net</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="756e3220-438b-4381-9d44-d5aafae9e22e">
+    <name>Gross</name>
+    <synonym>
+      <key>ru</key>
+      <value>Gross</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

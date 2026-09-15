@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e524281d-a3db-457e-879b-8a5b3f20a1e6" extendedConfigurationObject="d8fd2913-453d-4455-8fea-3c44fd451c01">
+  <producedTypes>
+    <refType typeId="3e5b843c-7d92-4a1f-ab31-20f0e612d304" valueTypeId="e02bfd3f-ba11-48dc-8e27-8bf774cda41d"/>
+    <listType typeId="5eaebc02-c8d2-4de2-9c87-8923ceb9a24b" valueTypeId="2db3abec-acc2-4826-ba18-e175ddaee60a"/>
+    <managerType typeId="51c87d1d-bf1c-40f2-9586-529febd4b27f" valueTypeId="3f8fccfd-7b77-4f96-92b8-75077c4736aa"/>
+  </producedTypes>
+  <name>НДФЛСтавки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="2dc99680-d8d7-4605-a29d-f1bdec426a57" extendedConfigurationObject="d356d0bf-b593-4846-9c62-5a952fd8def3">
+    <name>Ставка13</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="ea0abf55-34a8-4bad-8da1-af586585213a" extendedConfigurationObject="740a980b-0eaf-44f4-a768-40f7a772167c">
+    <name>Ставка15</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

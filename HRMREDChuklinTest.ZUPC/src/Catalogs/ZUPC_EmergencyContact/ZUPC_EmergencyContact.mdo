@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="951c6b5b-1777-4dcf-a602-d1481a0f7371">
+  <producedTypes>
+    <objectType typeId="f80a5f85-3d8e-42b8-8ea6-0dc326e3a8d3" valueTypeId="87391a93-5b0d-48e8-8141-26d18827db70"/>
+    <refType typeId="f9847a9e-f8f9-4f4f-b45f-6c7d71d83799" valueTypeId="d2b9d520-0307-49f2-a5a6-ab8acbbecb4b"/>
+    <selectionType typeId="0470968e-3d69-4476-b900-7cb010fdc7b5" valueTypeId="771acdf5-e6e7-4fc9-b0b9-d8a8865e7679"/>
+    <listType typeId="a1f378a0-79ae-4858-a4e9-3f01a92733b8" valueTypeId="16d90b69-7d43-41c5-8283-4ffb5eddf77f"/>
+    <managerType typeId="d66da43f-ff26-4c35-bad4-9e0540caf40a" valueTypeId="f209ea50-e737-496f-9b8c-a5aca601ee11"/>
+  </producedTypes>
+  <name>ZUPC_EmergencyContact</name>
+  <synonym>
+    <key>ru</key>
+    <value>Emergency contact (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ZUPC_EmergencyContact.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ZUPC_EmergencyContact.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="52049f94-6805-48c4-9329-be8bce9756ed">
+    <producedTypes>
+      <objectType typeId="bf73e9e9-116e-45ea-beb2-c1898e2fbf1e" valueTypeId="5a179139-d297-4bcf-a4a6-07d43d72b886"/>
+      <rowType typeId="19c7b8a4-b14b-476d-b166-ae52684d4b0e" valueTypeId="80f9b4c1-3d02-436e-8cbc-dae7cd567655"/>
+    </producedTypes>
+    <name>Contacts</name>
+    <synonym>
+      <key>ru</key>
+      <value>Contacts</value>
+    </synonym>
+    <attributes uuid="9aec1aa2-4d2a-436e-b8f9-805505da2cb4">
+      <name>ФИО</name>
+      <synonym>
+        <key>ru</key>
+        <value>ФИО</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="07bcb471-7060-448e-838b-a46733f385f2">
+      <name>СтепеньРодства</name>
+      <synonym>
+        <key>ru</key>
+        <value>Степень родства</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтепениРодстваФизическихЛиц</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cdc5f785-04e4-4c9c-8ba4-05bad5403b0f">
+      <name>Контакт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контакт</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3a072fb9-a54a-4a7e-88d6-94170ec9a3a1">
+      <name>Адрес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

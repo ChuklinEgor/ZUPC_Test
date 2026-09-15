@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b6f2491-db66-4459-8b50-70e0336d2dce">
+  <producedTypes>
+    <objectType typeId="436ae82a-d1cf-483d-a2a3-b0b297f99d83" valueTypeId="698e8b72-f0af-4ec2-b3e1-b0cc0b8e8d62"/>
+    <managerType typeId="948fd232-de7a-4336-a671-8ccf48b66a6a" valueTypeId="89a0d6cf-fc81-4a19-b560-b13cc20d7c4e"/>
+  </producedTypes>
+  <name>ZUPC_НДФЛСотрудниковиИстория</name>
+  <synonym>
+    <key>ru</key>
+    <value>НДФЛ Сотрудников история (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_НДФЛСотрудниковиИстория.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="3bc8a0c0-6a42-40eb-ba6e-57624d15540b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

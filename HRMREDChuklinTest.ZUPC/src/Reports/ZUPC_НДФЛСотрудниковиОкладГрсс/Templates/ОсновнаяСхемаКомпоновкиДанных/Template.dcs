@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФизическоеЛицо</dataPath>
+			<field>ФизическоеЛицо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физическое лицо</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Год</dataPath>
+			<field>Год</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Год</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Месяц</dataPath>
+			<field>Месяц</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Месяц</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ставка</dataPath>
+			<field>Ставка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ставка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Зарплата_net</dataPath>
+			<field>Зарплата_net</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарплата net</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗарплатаПослеИспСрока</dataPath>
+			<field>ЗарплатаПослеИспСрока</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарплата после исп срока</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗарплатаЧерез6Мес</dataPath>
+			<field>ЗарплатаЧерез6Мес</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарплата через6 мес</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗарплатаЧерезГод</dataPath>
+			<field>ЗарплатаЧерезГод</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарплата через год</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗарплатаТекущая</dataPath>
+			<field>ЗарплатаТекущая</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарплата текущая</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УдаленнаяРабота</dataPath>
+			<field>УдаленнаяРабота</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удаленная работа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Валюта</dataPath>
+			<field>Валюта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Валюта</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтавкаЧисло</dataPath>
+			<field>СтавкаЧисло</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ставка число</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОкладNetРасчетный</dataPath>
+			<field>ОкладNetРасчетный</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оклад net расчетный</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Руководитель</dataPath>
+			<field>Руководитель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Руководитель</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗарплатаГросс</dataPath>
+			<field>ЗарплатаГросс</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарплата гросс</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ТЗНДФЛ.ФизическоеЛицо КАК ФизическоеЛицо,
+	ТЗНДФЛ.ГоловнаяОрганизация КАК ГоловнаяОрганизация,
+	ТЗНДФЛ.Год КАК Год,
+	ТЗНДФЛ.Месяц КАК Месяц,
+	ТЗНДФЛ.Ставка КАК Ставка
+ПОМЕСТИТЬ ВТ
+ИЗ
+	ТЗНДФЛ КАК ТЗНДФЛ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ.ФизическоеЛицо КАК ФизическоеЛицо,
+	ВТ.ГоловнаяОрганизация КАК ГоловнаяОрганизация,
+	ВТ.Год КАК Год,
+	ВТ.Месяц КАК Месяц,
+	ВТ.Ставка КАК Ставка
+ПОМЕСТИТЬ ВТНДФЛ
+ИЗ
+	ВТ КАК ВТ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник КАК Сотрудник,
+	ТекущиеКадровыеДанныеСотрудников.ГоловнаяОрганизация КАК Организация,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.Зарплата_net КАК Зарплата_net,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.ЗарплатаПослеИспСрока КАК ЗарплатаПослеИспСрока,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.ЗарплатаЧерез6Мес КАК ЗарплатаЧерез6Мес,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.ЗарплатаЧерезГод КАК ЗарплатаЧерезГод,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.HiringSalary КАК ЗарплатаТекущая,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.УдаленнаяРабота КАК УдаленнаяРабота,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.Валюта КАК Валюта,
+	ТекущиеКадровыеДанныеСотрудников.ФизическоеЛицо КАК ФизическоеЛицо,
+	МАКСИМУМ(ПлановыйФОТИтоги.Период) КАК Период,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.Руководитель КАК Руководитель
+ПОМЕСТИТЬ ВТГруппировка
+ИЗ
+	РегистрСведений.ТекущиеКадровыеДанныеСотрудников КАК ТекущиеКадровыеДанныеСотрудников
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ПлановыйФОТИтоги КАК ПлановыйФОТИтоги
+		ПО ТекущиеКадровыеДанныеСотрудников.Сотрудник = ПлановыйФОТИтоги.Сотрудник
+			И ТекущиеКадровыеДанныеСотрудников.ФизическоеЛицо = ПлановыйФОТИтоги.ФизическоеЛицо
+ГДЕ
+	ТекущиеКадровыеДанныеСотрудников.ДатаУвольнения = ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+	И ТекущиеКадровыеДанныеСотрудников.ДатаПриема &lt;&gt; ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+
+СГРУППИРОВАТЬ ПО
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник,
+	ТекущиеКадровыеДанныеСотрудников.ФизическоеЛицо,
+	ТекущиеКадровыеДанныеСотрудников.ГоловнаяОрганизация,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.Зарплата_net,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.ЗарплатаПослеИспСрока,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.ЗарплатаЧерез6Мес,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.ЗарплатаЧерезГод,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.HiringSalary,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.УдаленнаяРабота,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.Валюта,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.Руководитель
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТГруппировка.Сотрудник КАК Сотрудник,
+	ВТГруппировка.Организация КАК Организация,
+	ВТГруппировка.Зарплата_net КАК Зарплата_net,
+	ВТГруппировка.ЗарплатаПослеИспСрока КАК ЗарплатаПослеИспСрока,
+	ВТГруппировка.ЗарплатаЧерез6Мес КАК ЗарплатаЧерез6Мес,
+	ВТГруппировка.ЗарплатаЧерезГод КАК ЗарплатаЧерезГод,
+	ВТГруппировка.ЗарплатаТекущая КАК ЗарплатаТекущая,
+	ВТГруппировка.УдаленнаяРабота КАК УдаленнаяРабота,
+	ВТГруппировка.Валюта КАК Валюта,
+	ВТГруппировка.ФизическоеЛицо КАК ФизическоеЛицо,
+	ВТГруппировка.Период КАК Период,
+	ПлановыйФОТИтоги.ФОТ КАК ФОТ,
+	ВТГруппировка.Руководитель КАК Руководитель
+ПОМЕСТИТЬ ВТ_ОКЛАД
+ИЗ
+	ВТГруппировка КАК ВТГруппировка
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ПлановыйФОТИтоги КАК ПлановыйФОТИтоги
+		ПО ВТГруппировка.Сотрудник = ПлановыйФОТИтоги.Сотрудник
+			И ВТГруппировка.Организация = ПлановыйФОТИтоги.ГоловнаяОрганизация
+			И ВТГруппировка.Период = ПлановыйФОТИтоги.Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТНДФЛ.ГоловнаяОрганизация КАК Организация,
+	ВТ_ОКЛАД.Сотрудник КАК Сотрудник,
+	ВТНДФЛ.ФизическоеЛицо КАК ФизическоеЛицо,
+	ВТНДФЛ.Год КАК Год,
+	ВТНДФЛ.Месяц КАК Месяц,
+	ВТНДФЛ.Ставка КАК Ставка,
+	ВТ_ОКЛАД.Зарплата_net КАК Зарплата_net,
+	ВТ_ОКЛАД.ЗарплатаПослеИспСрока КАК ЗарплатаПослеИспСрока,
+	ВТ_ОКЛАД.ЗарплатаЧерез6Мес КАК ЗарплатаЧерез6Мес,
+	ВТ_ОКЛАД.ЗарплатаЧерезГод КАК ЗарплатаЧерезГод,
+	ВТ_ОКЛАД.ЗарплатаТекущая КАК ЗарплатаТекущая,
+	ВТ_ОКЛАД.УдаленнаяРабота КАК УдаленнаяРабота,
+	ВТ_ОКЛАД.Валюта КАК Валюта,
+	ВТ_ОКЛАД.Период КАК Период,
+	ВТ_ОКЛАД.ФОТ КАК ЗарплатаГросс,
+	ВЫБОР
+		КОГДА ЗНАЧЕНИЕ(Перечисление.НДФЛСтавки.Ставка13) = ВТНДФЛ.Ставка
+			ТОГДА 0.13
+		ИНАЧЕ 0.15
+	КОНЕЦ КАК СтавкаЧисло,
+	ВТ_ОКЛАД.ФОТ - ВТ_ОКЛАД.ФОТ * ВЫБОР
+		КОГДА ЗНАЧЕНИЕ(Перечисление.НДФЛСтавки.Ставка13) = ВТНДФЛ.Ставка
+			ТОГДА 0.13
+		ИНАЧЕ 0.15
+	КОНЕЦ КАК ОкладNetРасчетный,
+	ВТ_ОКЛАД.Руководитель КАК Руководитель
+ИЗ
+	ВТНДФЛ КАК ВТНДФЛ
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_ОКЛАД КАК ВТ_ОКЛАД
+		ПО ВТНДФЛ.ФизическоеЛицо = ВТ_ОКЛАД.ФизическоеЛицо
+			И ВТНДФЛ.ГоловнаяОрганизация = ВТ_ОКЛАД.Организация</query>
+	</dataSet>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаПодписи</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата подписи</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>НДФЛ Сотрудников и оклад гросс</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сотрудник</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФизическоеЛицо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Руководитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтавкаЧисло</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОкладNetРасчетный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Зарплата_net</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗарплатаГросс</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Год</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Месяц</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ставка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Валюта</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>3ae0a71e-54ff-4c6b-b4f7-afb96cdefcb2</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ДатаПодписи</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Сотрудник</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Основной</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Организация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

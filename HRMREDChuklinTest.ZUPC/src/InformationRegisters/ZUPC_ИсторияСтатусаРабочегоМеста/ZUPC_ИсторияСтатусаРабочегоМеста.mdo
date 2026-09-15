@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="656d4d1a-8651-4ebb-bcdd-c14d721a9d42">
+  <producedTypes>
+    <selectionType typeId="8f04b956-501c-43c8-9d91-47d1aee09f92" valueTypeId="52292a4a-68b8-4ac2-8091-61d50edfe81e"/>
+    <listType typeId="1996d6e4-850a-44c4-a9c6-84d8453004d4" valueTypeId="122370ce-bf92-4b70-99e0-c01bb3b18875"/>
+    <managerType typeId="9bc0aa12-271f-4441-b764-71c4341952dd" valueTypeId="6fd9da21-71cf-41a8-84a2-a49d24204282"/>
+    <recordSetType typeId="d3d79e96-2039-4b58-8224-16a404692bdb" valueTypeId="70140383-91d8-46a5-b36b-5de8e48b067b"/>
+    <recordKeyType typeId="569cfe54-0e13-4455-ba8c-b50408b601ba" valueTypeId="634068f7-4f97-42b2-bd2c-78d9eccbd676"/>
+    <recordType typeId="ce53bcf7-3f4e-4262-ad8b-7677d3e4db51" valueTypeId="7aaa3715-2168-42df-b404-1661b91e0026"/>
+    <recordManagerType typeId="f58a9872-90d7-499f-9472-7aa81a1e997e" valueTypeId="053b2991-6ad1-485f-90b7-4cf4dc20d1b0"/>
+  </producedTypes>
+  <name>ZUPC_ИсторияСтатусаРабочегоМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>История статуса рабочего места (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5de24017-1a35-4b60-b9cb-2bc8ac4a490e">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="78e71b41-facb-42ef-8b35-c782b81b0dc4">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f3a2c04b-0a27-47f1-8214-71e53ffb449f">
+    <name>ZUPC_Офис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Офис (ZUPC)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ZUPC_Офисы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6f3dec7f-802c-4d53-97eb-35e09416b8f3">
+    <name>ZUPC_НомерМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер места (ZUPC)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ZUPC_НомерМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ZUPC_ИсторияСтатусаРабочегоМеста.Dimension.ZUPC_Офис</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

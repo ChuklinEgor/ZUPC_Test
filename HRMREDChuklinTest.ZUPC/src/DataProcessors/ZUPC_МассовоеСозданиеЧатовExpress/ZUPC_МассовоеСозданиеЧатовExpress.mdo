@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="874e1c73-02e1-4462-b619-5ce34f7b6eeb">
+  <producedTypes>
+    <objectType typeId="b9318e94-2c9e-47d1-943c-0d77522c7068" valueTypeId="467193cf-ec2b-486d-8786-fbf5cf1c2e4b"/>
+    <managerType typeId="fe846aaa-20f4-4c6a-b127-87eb12ec2d1e" valueTypeId="f4af2cef-7947-4e65-af44-ddf9245b32c9"/>
+  </producedTypes>
+  <name>ZUPC_МассовоеСозданиеЧатовExpress</name>
+  <synonym>
+    <key>ru</key>
+    <value>Массовое создание чатов express (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ZUPC_МассовоеСозданиеЧатовExpress.Form.Форма</defaultForm>
+  <forms uuid="9a74fe40-433a-46f2-ac93-bfafc90784b4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

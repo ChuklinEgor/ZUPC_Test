@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cb47a868-f7a2-4c81-905f-bf769efdb03a" extendedConfigurationObject="8654d79e-9bdd-47cd-a4a6-f3884a37bd13">
+  <producedTypes>
+    <containerType typeId="524c72b9-3531-4c42-bd36-87fab0ecbd25" valueTypeId="1759aabe-2110-4af2-8d59-2da0ce32408a"/>
+  </producedTypes>
+  <name>ОснованиеИзмененияПлановогоФОТ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

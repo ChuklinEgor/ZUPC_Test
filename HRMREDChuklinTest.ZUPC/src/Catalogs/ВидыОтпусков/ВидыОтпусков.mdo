@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7d1f1dd6-0a66-45ab-9415-dced9cc4b258" extendedConfigurationObject="4b94aeb2-0ac5-4318-9bbd-8a3b4b6f8851">
+  <producedTypes>
+    <objectType typeId="cddec5d0-1588-4fcf-8da6-39791487e914" valueTypeId="5540d5fb-a345-439a-a62a-6b8e3a75c12e"/>
+    <refType typeId="1132ccf3-4187-433a-9f24-57ee4db6736c" valueTypeId="8d70551a-3223-48a4-9234-04971cb4e090"/>
+    <selectionType typeId="96256a77-71f7-4571-8591-1eca84d6b338" valueTypeId="31544336-a303-4dd5-9ab0-622ca480d9b6"/>
+    <listType typeId="140fc592-4ec1-4c47-8525-f1533fda26e9" valueTypeId="6e7b1659-a339-4b7c-944b-a3b1eee348f8"/>
+    <managerType typeId="d20099d8-4539-4b19-b099-7b0957f6a7f8" valueTypeId="7ab0276f-1f8f-4913-b95b-cc2387b7452a"/>
+  </producedTypes>
+  <name>ВидыОтпусков</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

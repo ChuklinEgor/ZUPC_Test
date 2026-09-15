@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="336c979f-1513-48e4-b4f7-70a02768ab7d">
+  <producedTypes>
+    <selectionType typeId="6e2d1864-161f-4e73-bb43-d54a96ebcc36" valueTypeId="1eeb5fb7-0cb7-405b-b0c1-d03699044cc4"/>
+    <listType typeId="cb741499-d8ea-4b30-8bb3-4b6f933cc038" valueTypeId="bb8790d8-f280-4423-b9e4-6a6cb4b20743"/>
+    <managerType typeId="c8e4a26c-7bf5-4de3-91e8-42b4cfee4bfd" valueTypeId="2798b041-3101-42f3-b52b-d2178ecab6c7"/>
+    <recordSetType typeId="4cf25e03-8d78-47ba-af83-04222fcddd08" valueTypeId="aff25a68-62c1-4de6-84d6-2050d103da06"/>
+    <recordKeyType typeId="5c42c8f7-47e4-47f1-b7dd-b0393d6bbb6e" valueTypeId="3ac96352-d37b-4568-af05-f25d7d1bd4c0"/>
+    <recordType typeId="b182e6e1-f3aa-4155-9523-51bf5f8f484e" valueTypeId="c7204f4c-e7ff-4490-88ac-93848e49cc6a"/>
+    <recordManagerType typeId="2edfea8f-d4db-4bf7-ac5b-900334557f2b" valueTypeId="a19bd0a2-5e52-4ff5-ba91-bfee68aabaa4"/>
+  </producedTypes>
+  <name>ВыполнениеРегламентныхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение регламентных заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="81ba53b8-cf70-4b9e-bd9b-af54b5121cd6">
+    <name>РегламентноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентное задание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="127fda8d-ed92-4391-afbc-cccc532245d9">
+    <name>ДатаЗавершения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата завершения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

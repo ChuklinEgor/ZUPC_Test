@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0046202e-6fdd-430c-aeaf-656f49363aa8">
+  <name>ZUPC_ПоискСотрудниковExpress</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск сотрудников Express</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

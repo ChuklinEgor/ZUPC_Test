@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПриема</dataPath>
+			<field>ДатаПриема</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Desk_Team</dataPath>
+			<field>Desk_Team</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Desk team</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Position</dataPath>
+			<field>Position</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Position</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Department</dataPath>
+			<field>Department</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Department</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Location</dataPath>
+			<field>Location</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Location</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФизическоеЛицо</dataPath>
+			<field>ФизическоеЛицо</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>DateJoingGroup</dataPath>
+			<field>DateJoingGroup</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Date joing group</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Спеллинг</dataPath>
+			<field>Спеллинг</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Спеллинг</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГоловнаяОрганизация</dataPath>
+			<field>ГоловнаяОрганизация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОсновноеНачисление</dataPath>
+			<field>ОсновноеНачисление</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Год</dataPath>
+			<field>Год</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОкончания</dataPath>
+			<field>ДатаОкончания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОсновнойТелефон</dataPath>
+			<field>ОсновнойТелефон</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВнутрНомер</dataPath>
+			<field>ВнутрНомер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОсновнойТелефон1</dataPath>
+			<field>ОсновнойТелефон1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основной телефон1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Приоритет</dataPath>
+			<field>Приоритет</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Приоритет</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник1</dataPath>
+			<field>Сотрудник1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УникальныйИдентификатор</dataPath>
+			<field>УникальныйИдентификатор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Почта</dataPath>
+			<field>Почта</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>id_sd</dataPath>
+			<field>id_sd</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТелефонДоп</dataPath>
+			<field>ТелефонДоп</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	МАКСИМУМ(ПлановыйФОТИтогиСрезПоследних.Период) КАК Период,
+	ПлановыйФОТИтогиСрезПоследних.Сотрудник КАК Сотрудник,
+	ПлановыйФОТИтогиСрезПоследних.ГоловнаяОрганизация КАК ГоловнаяОрганизация,
+	ПлановыйФОТИтогиСрезПоследних.ФизическоеЛицо КАК ФизическоеЛицо
+ПОМЕСТИТЬ ВТМакс_Период
+ИЗ
+	РегистрСведений.ПлановыйФОТИтоги.СрезПоследних КАК ПлановыйФОТИтогиСрезПоследних
+
+СГРУППИРОВАТЬ ПО
+	ПлановыйФОТИтогиСрезПоследних.Сотрудник,
+	ПлановыйФОТИтогиСрезПоследних.ГоловнаяОрганизация,
+	ПлановыйФОТИтогиСрезПоследних.ФизическоеЛицо
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПлановыйФОТИтогиСрезПоследних.Период КАК Период,
+	ПлановыйФОТИтогиСрезПоследних.Сотрудник КАК Сотрудник,
+	ПлановыйФОТИтогиСрезПоследних.ДатаОкончания КАК ДатаОкончания,
+	ПлановыйФОТИтогиСрезПоследних.Год КАК Год,
+	ПлановыйФОТИтогиСрезПоследних.ГоловнаяОрганизация КАК ГоловнаяОрганизация,
+	ПлановыйФОТИтогиСрезПоследних.ФизическоеЛицо КАК ФизическоеЛицо,
+	ПлановыйФОТИтогиСрезПоследних.ОсновноеНачисление КАК ОсновноеНачисление,
+	ПлановыйФОТИтогиСрезПоследних.ВидТарифнойСтавки КАК ВидТарифнойСтавки,
+	ПлановыйФОТИтогиСрезПоследних.ТарифнаяСтавка КАК ТарифнаяСтавка,
+	ПлановыйФОТИтогиСрезПоследних.СовокупнаяТарифнаяСтавка КАК СовокупнаяТарифнаяСтавка,
+	ПлановыйФОТИтогиСрезПоследних.ФОТ КАК ФОТ,
+	ПлановыйФОТИтогиСрезПоследних.Надбавка КАК Надбавка,
+	ПлановыйФОТИтогиСрезПоследних.Используется КАК Используется,
+	ПлановыйФОТИтогиСрезПоследних.ПоказательТарифнойСтавки КАК ПоказательТарифнойСтавки,
+	ПлановыйФОТИтогиСрезПоследних.РегистраторСобытия КАК РегистраторСобытия,
+	ПлановыйФОТИтогиСрезПоследних.ПериодПредыдущейЗаписи КАК ПериодПредыдущейЗаписи
+ПОМЕСТИТЬ ВТ_ФОТ
+ИЗ
+	ВТМакс_Период КАК ВТМакс_Период
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ПлановыйФОТИтоги.СрезПоследних КАК ПлановыйФОТИтогиСрезПоследних
+		ПО ВТМакс_Период.Сотрудник = ПлановыйФОТИтогиСрезПоследних.Сотрудник
+			И ВТМакс_Период.ГоловнаяОрганизация = ПлановыйФОТИтогиСрезПоследних.ГоловнаяОрганизация
+			И ВТМакс_Период.ФизическоеЛицо = ПлановыйФОТИтогиСрезПоследних.ФизическоеЛицо
+			И ВТМакс_Период.Период = ПлановыйФОТИтогиСрезПоследних.Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник КАК Сотрудник,
+	ТекущиеКадровыеДанныеСотрудников.ГоловнаяОрганизация КАК Организация,
+	ТекущиеКадровыеДанныеСотрудников.ДатаПриема КАК ДатаПриема,
+	1 КАК Количество,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.ZUPC_ActualPositionTitle КАК Position,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.ZUPC_ActualDepartmentName КАК Department,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.ZUPC_Desk_Team КАК Desk_Team,
+	ТекущиеКадровыеДанныеСотрудников.Сотрудник.ZUPC_Locations КАК Location,
+	ВЫБОР
+		КОГДА ZUPC_ЗарплатаNetСрезПоследних.Зарплата_net &gt; 0
+			ТОГДА ZUPC_ЗарплатаNetСрезПоследних.Зарплата_net
+		ИНАЧЕ ВТ_ФОТ.ФОТ
+	КОНЕЦ КАК Зарплата_net,
+	ТекущиеКадровыеДанныеСотрудников.ФизическоеЛицо.ZUPC_DateJoingGroup КАК DateJoingGroup,
+	ВЫБОР
+		КОГДА ТекущиеКадровыеДанныеСотрудников.Сотрудник.Спеллинг &lt;&gt; ""
+			ТОГДА ТекущиеКадровыеДанныеСотрудников.Сотрудник.Спеллинг
+		ИНАЧЕ ТекущиеКадровыеДанныеСотрудников.Сотрудник
+	КОНЕЦ КАК Спеллинг,
+	ВТ_ФОТ.ФОТ КАК ФОТ,
+	ВТ_ФОТ.ОсновноеНачисление КАК ОсновноеНачисление,
+	ЕСТЬNULL(ТекущиеКадровыеДанныеСотрудников.Сотрудник.ZUPC_ActualDepartmentName.Приоритет, 0) КАК Приоритет,
+	ZUPC_НовыеCотрудники.Сотрудник КАК Сотрудник1,
+	ZUPC_НовыеCотрудники.УникальныйИдентификатор КАК УникальныйИдентификатор
+ПОМЕСТИТЬ вт3
+ИЗ
+	РегистрСведений.ТекущиеКадровыеДанныеСотрудников КАК ТекущиеКадровыеДанныеСотрудников
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ZUPC_ЗарплатаNet.СрезПоследних КАК ZUPC_ЗарплатаNetСрезПоследних
+		ПО ТекущиеКадровыеДанныеСотрудников.Сотрудник = ZUPC_ЗарплатаNetСрезПоследних.Сотрудник
+			И ТекущиеКадровыеДанныеСотрудников.ФизическоеЛицо = ZUPC_ЗарплатаNetСрезПоследних.ФизическоеЛицо
+			И ТекущиеКадровыеДанныеСотрудников.ГоловнаяОрганизация = ZUPC_ЗарплатаNetСрезПоследних.Организация
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_ФОТ КАК ВТ_ФОТ
+		ПО (ВТ_ФОТ.ФизическоеЛицо = ТекущиеКадровыеДанныеСотрудников.ФизическоеЛицо)
+			И (ВТ_ФОТ.ГоловнаяОрганизация = ТекущиеКадровыеДанныеСотрудников.ГоловнаяОрганизация)
+			И (ВТ_ФОТ.Сотрудник = ТекущиеКадровыеДанныеСотрудников.Сотрудник)
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ZUPC_НовыеCотрудники КАК ZUPC_НовыеCотрудники
+		ПО ТекущиеКадровыеДанныеСотрудников.Сотрудник = ZUPC_НовыеCотрудники.Сотрудник
+ГДЕ
+	ТекущиеКадровыеДанныеСотрудников.ДатаУвольнения = ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+	И ТекущиеКадровыеДанныеСотрудников.ДатаПриема &lt;&gt; ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+	И ТекущиеКадровыеДанныеСотрудников.Сотрудник.ZUPC_NonEstablishedEmployees = ЛОЖЬ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	вт3.Сотрудник КАК Сотрудник,
+	вт3.Организация КАК Организация,
+	вт3.ДатаПриема КАК ДатаПриема,
+	вт3.Количество КАК Количество,
+	вт3.Position КАК Position,
+	вт3.Department КАК Department,
+	вт3.Desk_Team КАК Desk_Team,
+	вт3.Location КАК Location,
+	вт3.DateJoingGroup КАК DateJoingGroup,
+	вт3.Спеллинг КАК Спеллинг,
+	вт3.ОсновноеНачисление КАК ОсновноеНачисление,
+	вт3.Приоритет КАК Приоритет,
+	вт3.Сотрудник1 КАК Сотрудник1,
+	вт3.УникальныйИдентификатор КАК УникальныйИдентификатор,
+	ZUPC_УчетнаяИнформацияПользователей.Почта КАК Почта,
+	ZUPC_УчетнаяИнформацияПользователей.id_sd КАК id_sd,
+	ZUPC_УчетнаяИнформацияПользователей.ОсновнойТелефон КАК ОсновнойТелефон,
+	ZUPC_УчетнаяИнформацияПользователей.ТелефонДоп КАК ТелефонДоп,
+	ZUPC_УчетнаяИнформацияПользователей.ВнутрНомер КАК ВнутрНомер,
+	ZUPC_УчетнаяИнформацияПользователей.ОсновнойТелефон КАК ОсновнойТелефон1
+ИЗ
+	вт3 КАК вт3
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ZUPC_УчетнаяИнформацияПользователей КАК ZUPC_УчетнаяИнформацияПользователей
+		ПО вт3.УникальныйИдентификатор = ZUPC_УчетнаяИнформацияПользователей.УникальныйИдентификатор</query>
+	</dataSet>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>HR contacts vertical</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>СистемныеПоля.НомерПоПорядку</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Спеллинг</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>DateJoingGroup</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Position</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Почта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОсновнойТелефон</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТелефонДоп</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВнутрНомер</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Сотрудник</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>dfe698b8-02ae-4819-8ce6-f8e0afea9b21</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Department</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>bd538e49-014a-4f7b-8962-9fe56289932d</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Desk_Team</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>804412a0-546d-4258-9e5e-9d64383d699c</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Location</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>f05ee31c-b423-4e03-ab0e-2a153fded612</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">20</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionGroupFieldsPlacement">Separately</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Штатное расписание управленческое</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Location</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:name>Заголовок</dcsset:name>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Department</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:name>ЗаголовокДеск</dcsset:name>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Desk_Team</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:conditionalAppearance>
+							<dcsset:item>
+								<dcsset:selection/>
+								<dcsset:filter/>
+								<dcsset:appearance>
+									<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+										<dcscor:parameter>ЦветФона</dcscor:parameter>
+										<dcscor:value xsi:type="v8ui:Color">#B4E5F1</dcscor:value>
+									</dcscor:item>
+								</dcsset:appearance>
+							</dcsset:item>
+						</dcsset:conditionalAppearance>
+						<dcsset:outputParameters>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:use>false</dcscor:use>
+								<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+								<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+							</dcscor:item>
+						</dcsset:outputParameters>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:name>ЗаголДетЗап</dcsset:name>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

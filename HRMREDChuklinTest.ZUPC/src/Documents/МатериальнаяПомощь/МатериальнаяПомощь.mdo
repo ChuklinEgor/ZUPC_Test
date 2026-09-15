@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d7c9b0fd-5d9d-40fb-9954-c42c65708619" extendedConfigurationObject="eb2ec6ed-e6ac-44ef-b933-05e8896ae298">
+  <producedTypes>
+    <objectType typeId="a40e9699-141e-4f5d-979c-b55a6ff9032a" valueTypeId="2d9436d7-d48f-45ce-98b2-22df384e8ce2"/>
+    <refType typeId="b8fcfdb7-1fa4-49b2-8ace-5684082363bc" valueTypeId="28d438bc-abeb-4e93-873c-97b53e78115e"/>
+    <selectionType typeId="6af51869-f3c8-47e4-95c8-bc9a5d5f9b4d" valueTypeId="f874c87d-e666-42a2-af3b-778e77549024"/>
+    <listType typeId="bbbf635c-b592-460a-b311-3d72734f5d12" valueTypeId="78446a1f-830e-4a72-ad10-0c32da1dcb1a"/>
+    <managerType typeId="bc73dee4-b75d-4576-a12b-0d0c3020f786" valueTypeId="547d444b-69e6-4447-9675-581192c6733d"/>
+  </producedTypes>
+  <name>МатериальнаяПомощь</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

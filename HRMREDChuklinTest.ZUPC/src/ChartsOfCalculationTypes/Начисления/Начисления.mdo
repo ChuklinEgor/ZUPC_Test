@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dca3bc8f-98f1-4f73-97e7-d4ae6a630e8d" extendedConfigurationObject="be08c831-b5a8-4e28-b13c-26875635a7f1">
+  <producedTypes>
+    <objectType typeId="fad2717f-c082-450f-88a5-78a7c1cdfa79" valueTypeId="ea31083b-d304-402b-8ef0-22dc486170e7"/>
+    <refType typeId="36b264bb-76f3-404c-bc7a-21b8edce3576" valueTypeId="1218a37c-6330-4356-b920-91689e21cf15"/>
+    <selectionType typeId="e22be00e-af51-47c6-9bc8-2910d586b86c" valueTypeId="1157fd79-3a1d-4446-8632-2c132ed3209a"/>
+    <listType typeId="50af8970-59c6-48bc-8fdf-116ff9902175" valueTypeId="5a8c9336-bc07-48a5-b737-62491c53bf63"/>
+    <managerType typeId="2541cc24-8176-4d85-a23c-5bf90048ced8" valueTypeId="f63ae534-4c33-42b0-bce3-8991e5f61969"/>
+    <displacingCalculationTypesType typeId="bedc5489-73da-43f8-9b85-069a5d3a2e68" valueTypeId="6ebce5a6-fc85-46c1-8e49-dbf59a0230c5"/>
+    <displacingCalculationTypesRowType typeId="0fdd6cea-53c8-4dca-af4a-a2d544af4089" valueTypeId="989240c0-99aa-413b-904b-db25d8707477"/>
+    <baseCalculationTypesType typeId="976b241c-f999-4305-998e-d7576468fd15" valueTypeId="dc97f3b7-1a85-4875-8f86-94cfd7172038"/>
+    <baseCalculationTypesRowType typeId="e59d2e8b-ec0f-4614-9841-5357da71f8ec" valueTypeId="60f2cc72-1962-4341-86d8-2fcb7d779e90"/>
+    <leadingCalculationTypesType typeId="2c247c5e-a08a-4839-8e15-6c6c9925d390" valueTypeId="460c66f3-ae0a-422b-a6d3-96e54e3f9820"/>
+    <leadingCalculationTypesRowType typeId="ce043af1-0251-4ca6-9d78-01d5cc0f2f55" valueTypeId="66d68270-7ea0-4464-bc13-73f3b7ead0e4"/>
+  </producedTypes>
+  <name>Начисления</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCalculationTypesExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <descriptionLength>Checked</descriptionLength>
+  </extension>
+  <descriptionLength>100</descriptionLength>
+</mdclass:ChartOfCalculationTypes>

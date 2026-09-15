@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1af7ad1f-d84a-4464-81ae-7153ffaf557e">
+  <producedTypes>
+    <objectType typeId="60d6aec9-c74d-4756-9846-62e4a5e461d1" valueTypeId="b7b0023f-ba6a-4c00-a15b-a908b317e9e6"/>
+    <refType typeId="fe117aca-c281-44b6-9869-8de93e635b75" valueTypeId="5024f470-c700-4075-b8ec-9545d82338d5"/>
+    <selectionType typeId="49616ae2-900a-4e6d-aaf7-4317255622a7" valueTypeId="33de2701-80f8-4be0-99e0-68c2aa7fabf5"/>
+    <listType typeId="5308efcc-c7ec-4598-a427-64c1ced2e208" valueTypeId="32eafec2-3c79-410a-87bf-185788cd2577"/>
+    <managerType typeId="83ea5746-b411-424a-ac36-9f7ab7ff3788" valueTypeId="6d00664d-b863-4cfd-8717-62e2aa02f0ac"/>
+  </producedTypes>
+  <name>ZUPC_RemoteWorkLocation</name>
+  <synonym>
+    <key>ru</key>
+    <value>Remote work location (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ZUPC_RemoteWorkLocation.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ZUPC_RemoteWorkLocation.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

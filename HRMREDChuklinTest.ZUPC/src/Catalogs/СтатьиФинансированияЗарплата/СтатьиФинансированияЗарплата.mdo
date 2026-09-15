@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d466a372-41f3-4bc9-9016-e3acc4f03fe6" extendedConfigurationObject="83024cbe-c18b-4c72-93df-580d52d1a49f">
+  <producedTypes>
+    <objectType typeId="ed6be0be-4094-47ac-815b-d2222f7d62b9" valueTypeId="83df2092-27db-4a64-9a91-ca931a6b6071"/>
+    <refType typeId="27478e2e-78b4-4e35-a59d-11dc1d9b8d0a" valueTypeId="5f11566c-d65f-4c43-9446-6e169d295e3b"/>
+    <selectionType typeId="55cdbb35-5ecd-482b-a269-64e27afa91ad" valueTypeId="3b3086ab-1075-405c-913e-b46172c6cc17"/>
+    <listType typeId="6f3e98c6-4757-46be-bc3b-6e454136b597" valueTypeId="d69c72ca-d9a2-4810-b85f-460d7f543979"/>
+    <managerType typeId="3f8b7385-7aa9-4998-bed3-a7a8b79f7074" valueTypeId="f5e6f57c-c104-4b57-aefe-3b427fc0026d"/>
+  </producedTypes>
+  <name>СтатьиФинансированияЗарплата</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

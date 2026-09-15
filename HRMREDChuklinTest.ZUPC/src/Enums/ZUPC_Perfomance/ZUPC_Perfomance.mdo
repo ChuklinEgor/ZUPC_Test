@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49feae97-40d4-45a4-bdb4-a0b4da2738c3">
+  <producedTypes>
+    <refType typeId="2af0e04d-d1d3-4fce-b7c1-004290c2085b" valueTypeId="c82a8b37-1ca4-43af-b6ee-21464d605dc1"/>
+    <listType typeId="115d9857-30d9-494f-89af-b457fcf2ec09" valueTypeId="ba7c8de0-05cc-4f15-bf16-738c63688d3f"/>
+    <managerType typeId="e71266de-2cdd-4218-a611-8f8088c74f26" valueTypeId="5b4710fc-28b8-412f-ac30-2e23bdbe59f1"/>
+  </producedTypes>
+  <name>ZUPC_Perfomance</name>
+  <synonym>
+    <key>ru</key>
+    <value>Perfomance (ZUPC)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cb30aa66-27e6-4ca0-9da6-34b4d77fb9bd">
+    <name>below</name>
+    <synonym>
+      <key>ru</key>
+      <value>Below</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4e8962f-82e9-4fcc-8f04-e71cabdcdc23">
+    <name>meets</name>
+    <synonym>
+      <key>ru</key>
+      <value>Meets</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40bc59c0-3ab7-4c89-a265-c36b2e2fd253">
+    <name>above</name>
+    <synonym>
+      <key>ru</key>
+      <value>Above</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13d0944e-35c0-43e3-92ae-d4f029d01eee">
+    <name>outstanding</name>
+    <synonym>
+      <key>ru</key>
+      <value>Outstanding</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43607b8d-8a7e-4d91-8afe-fdf5f1b07b6e">
+    <name>Not_assessed</name>
+    <synonym>
+      <key>ru</key>
+      <value>Not assessed</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

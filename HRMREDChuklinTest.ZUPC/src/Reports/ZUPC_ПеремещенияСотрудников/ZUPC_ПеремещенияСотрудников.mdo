@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fb2668c-6d86-4f8e-9abc-4061c3e4bc90">
+  <producedTypes>
+    <objectType typeId="38fe2eff-327f-425b-8389-59fbb6ba4e15" valueTypeId="0e51cc14-6fcd-4487-97c6-5035dd62f9a7"/>
+    <managerType typeId="4dcb92d8-7c2f-4824-a5f3-778beb36d862" valueTypeId="c88604ef-bfba-4108-b13e-3b8eb42149d2"/>
+  </producedTypes>
+  <name>ZUPC_ПеремещенияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемещения сотрудников (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_ПеремещенияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="7fc16612-dbd3-4c76-bc70-c10e69681b8a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bd18f7b-f149-45fc-a806-8d8385635da5">
+  <producedTypes>
+    <objectType typeId="f6f6a4df-ed99-489e-b6f4-539ee064a40d" valueTypeId="8afa8458-8db3-4b04-b933-5b86a5bd042d"/>
+    <managerType typeId="7610502c-3cc6-4ea4-8366-e810dfa3d814" valueTypeId="b3f2f4e7-2c52-44e9-8219-71536af53463"/>
+  </producedTypes>
+  <name>ZUPC_ReportTalentReview</name>
+  <synonym>
+    <key>ru</key>
+    <value>Report talent review (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_ReportTalentReview.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="b96934bd-7aba-4600-b32a-aa8694643580">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

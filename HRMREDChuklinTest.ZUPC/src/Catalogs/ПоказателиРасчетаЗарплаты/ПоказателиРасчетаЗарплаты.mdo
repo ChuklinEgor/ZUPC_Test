@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="59eebe7a-e48d-4bb9-9d74-de7a8a865553" extendedConfigurationObject="8f857a1b-ebf6-49a2-8dd7-6e2a5e8824c9">
+  <producedTypes>
+    <objectType typeId="3c5038a7-343f-404f-8db6-1d133e791251" valueTypeId="188c3a6d-e050-48f4-a3de-ea432dec3a3f"/>
+    <refType typeId="25ba6894-75e8-4702-9a05-b1adda4ec352" valueTypeId="a1c5921f-1af1-44ed-9032-786605a2efba"/>
+    <selectionType typeId="f41798af-d549-4129-83ef-cd52123be47c" valueTypeId="b69321ea-4da8-45b9-bd72-6844252914e7"/>
+    <listType typeId="97fa0642-02d4-4516-82f1-bf9667e468ca" valueTypeId="9e7de831-d69d-40e3-bb6d-2cd8cb1a0d96"/>
+    <managerType typeId="06538002-9c78-445a-9568-42ca715e4c6b" valueTypeId="17bded29-2440-4651-a888-69ae15593bbb"/>
+  </producedTypes>
+  <name>ПоказателиРасчетаЗарплаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

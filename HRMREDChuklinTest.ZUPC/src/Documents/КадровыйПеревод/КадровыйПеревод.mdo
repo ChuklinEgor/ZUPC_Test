@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="56b8daf3-a610-4fea-abaa-6f5266a0a523" extendedConfigurationObject="9f3711e5-69f1-406d-b6f7-9e1d9ebc4707">
+  <producedTypes>
+    <objectType typeId="79118d26-d838-464b-98c7-c5ea450420de" valueTypeId="76a13688-cea9-4a45-911c-f97e3e948b9e"/>
+    <refType typeId="c3ab4458-42a7-4588-b7f4-a75bbbae3346" valueTypeId="5afe9ac1-b2df-4b7c-b07f-211bfec45e33"/>
+    <selectionType typeId="25de4c7d-e541-487d-b1f4-3e8838de5b8b" valueTypeId="54674e20-f74e-43c2-a1b3-cce39b2c973a"/>
+    <listType typeId="d7f67d73-b049-4dae-9e49-c42c84450fc4" valueTypeId="337d4e55-6eb4-41b3-9465-2b115b1cbd85"/>
+    <managerType typeId="24f4141e-4aa3-47ac-a79b-b74475c22290" valueTypeId="64b61d29-5971-44c0-9efb-e5cef9b8f6a1"/>
+  </producedTypes>
+  <name>КадровыйПеревод</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="bee7cc75-ca17-4b0b-bc43-e7de7e4843c6" extendedConfigurationObject="ef233996-ed78-413b-be15-a5abe8738d0f">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

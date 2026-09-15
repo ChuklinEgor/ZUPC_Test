@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33de15a8-59d4-4e25-a07c-7236a9888c28">
+  <producedTypes>
+    <objectType typeId="4d3607f8-1503-4c89-a4ca-c171a7d994e7" valueTypeId="d2e68921-105b-45ac-8974-23880c4108af"/>
+    <managerType typeId="e2ba34c0-f1c2-435e-92c8-29031058d39a" valueTypeId="6673a15c-392d-432a-b6c0-f48e6f80ab21"/>
+  </producedTypes>
+  <name>ZUPC_HR_ContatsHorizontal</name>
+  <synonym>
+    <key>ru</key>
+    <value>HR Contacts (ZUPC) horizontal</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_HR_ContatsHorizontal.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="91adbeed-0b11-448c-b7ee-e8579994e228">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

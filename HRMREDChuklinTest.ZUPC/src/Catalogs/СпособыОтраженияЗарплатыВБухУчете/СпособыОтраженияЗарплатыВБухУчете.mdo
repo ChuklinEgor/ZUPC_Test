@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="70f3308b-e172-485d-ab38-8e40c90a052a" extendedConfigurationObject="4e287843-931a-4dd2-9ed1-be19cba80225">
+  <producedTypes>
+    <objectType typeId="8775599e-5355-48b4-b5ff-a055f1ab4082" valueTypeId="4e12219d-12e5-42d5-913a-830600bd7dea"/>
+    <refType typeId="4962cb3d-7a4c-4b01-b426-9b3cd64b44e4" valueTypeId="d83d5964-3867-446a-8537-c48043541943"/>
+    <selectionType typeId="c98745b8-a392-41af-a6e7-22151a6987e8" valueTypeId="6e15858a-ba60-4e83-a5fa-94b56810b466"/>
+    <listType typeId="fabd0ee2-9a7d-46fb-9386-881fbfa1cf61" valueTypeId="c80b36a6-ab9d-4832-8f32-b30eff953ab7"/>
+    <managerType typeId="19b75def-e1f8-4f92-ba03-9b97a6d83886" valueTypeId="5436e839-69e5-4ac5-96d1-983252c157e2"/>
+  </producedTypes>
+  <name>СпособыОтраженияЗарплатыВБухУчете</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

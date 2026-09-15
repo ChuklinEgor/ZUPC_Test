@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92ebde9c-3d73-4c2d-96a5-94a7b161f1e3">
+  <name>IMA_ZUPC</name>
+  <synonym>
+    <key>ru</key>
+    <value>IMA ZUPC</value>
+  </synonym>
+</mdclass:Role>

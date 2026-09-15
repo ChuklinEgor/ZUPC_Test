@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa619b4b-668e-4655-ba03-2ef183d0e6b9">
+  <producedTypes>
+    <refType typeId="eac7aa30-6ac1-4cc4-a697-55606c2adf12" valueTypeId="a3d3f740-f35d-47b0-a47d-c1f96f8d653d"/>
+    <listType typeId="c0c79290-6b78-4be6-a975-c5829d30b8df" valueTypeId="86287094-50ab-4d99-9cbd-6a4a675605df"/>
+    <managerType typeId="cb715075-e71b-4b9e-9b2b-dffe6487cca9" valueTypeId="e715e2d0-e5cd-48fb-9793-4192e1a2d477"/>
+  </producedTypes>
+  <name>ZUPC_Potential</name>
+  <synonym>
+    <key>ru</key>
+    <value>Potential (ZUPC)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="513a6614-e467-4b80-a864-d8b97dfb3aea">
+    <name>on_track</name>
+    <synonym>
+      <key>ru</key>
+      <value>On track</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="745d5689-26bb-4eaf-9213-1892bda61eff">
+    <name>emerging_talent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Emerging talent</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b886f84-71ab-4d42-b0e8-ae162db2bdde">
+    <name>top_talent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Top talent</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cda54618-e2b9-4e95-9511-6b90ba128a2d">
+    <name>Not_assessed</name>
+    <synonym>
+      <key>ru</key>
+      <value>Not assessed</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

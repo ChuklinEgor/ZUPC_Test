@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62b16552-a8cb-4532-96a5-d35d59d98e82">
+  <producedTypes>
+    <objectType typeId="55c968ca-9cb9-4b2c-8df9-015fb1111f4f" valueTypeId="8caac856-8128-4794-917e-d83381f7956d"/>
+    <managerType typeId="88663727-05d3-472f-ba36-ae58c73d05c8" valueTypeId="0dd35036-5659-4196-abd9-3159458cdeb3"/>
+  </producedTypes>
+  <name>ZUPC_СверкаЗП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сверка ЗП (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_СверкаЗП.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="e7e5d0a7-3ed3-44c8-a61b-28a1c0e0151f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

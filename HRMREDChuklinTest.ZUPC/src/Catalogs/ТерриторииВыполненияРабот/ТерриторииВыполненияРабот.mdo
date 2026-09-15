@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="127a5168-5621-42ab-bb5d-69e4f2f1a936" extendedConfigurationObject="1672da78-07a3-4118-a088-00f089f3c0ca">
+  <producedTypes>
+    <objectType typeId="4b0b13e1-98f8-4930-86af-92b8c68179a6" valueTypeId="216a56d1-e7c1-4e81-8353-679f15970878"/>
+    <refType typeId="0759cf5f-a120-4c57-aa32-feb8801fad42" valueTypeId="7793f4a8-1e33-4aca-9cd8-daec16960188"/>
+    <selectionType typeId="8d373a67-969b-4122-b961-12cfe8767e5c" valueTypeId="4f2c7611-238f-4f49-b642-2cf8f40bba36"/>
+    <listType typeId="74f07be2-c971-47bb-9254-0705be9d1307" valueTypeId="01217d6f-f649-4878-ae79-4d54c68303f0"/>
+    <managerType typeId="baa46c43-d8b1-40b1-bd38-35336c8ee5b1" valueTypeId="43d02fd3-5584-4449-9def-9f19bb0e86b7"/>
+  </producedTypes>
+  <name>ТерриторииВыполненияРабот</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16ed74ea-fe93-4855-9169-2669a521543b">
+  <producedTypes>
+    <objectType typeId="1dbc96b6-4337-4863-b35f-e0db0ca2572e" valueTypeId="08185a32-3413-4b9e-9cfc-b05869be8d24"/>
+    <managerType typeId="c4b6f835-6395-422f-a402-14d246241033" valueTypeId="419cce0d-5bf8-446c-80bc-a5df6c53d3e0"/>
+  </producedTypes>
+  <name>ZUPC_ManagerialPositionDepartmentStructureAdminisration2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Managerial position and department structure adminisration2 (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_ManagerialPositionDepartmentStructureAdminisration2.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="8d3b9c82-07a3-4c16-b33b-1d21f5f809a3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

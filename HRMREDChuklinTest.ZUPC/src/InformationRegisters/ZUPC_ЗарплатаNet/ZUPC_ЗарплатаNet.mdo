@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0c63ee7-a29b-4e1a-a488-5737aa2b5f00">
+  <producedTypes>
+    <selectionType typeId="f3059aab-2af5-41c8-b7a5-7e50fb865086" valueTypeId="e7fde50e-24e1-437c-a1bb-ab20526aa71a"/>
+    <listType typeId="591e756d-fc3a-4863-a555-8c0274b76741" valueTypeId="4a0019fb-9718-47be-a885-88ee3ba79902"/>
+    <managerType typeId="0783b464-e7e3-4f1a-9960-8aa6dc8fde23" valueTypeId="a1cf3a9d-1492-412a-8098-de401381d671"/>
+    <recordSetType typeId="4e50e023-db82-49c7-91b9-9820f09c262d" valueTypeId="2521143a-7dcd-46a1-a755-493b2a856b81"/>
+    <recordKeyType typeId="663168a7-34e5-4708-85ab-1689385ad1fb" valueTypeId="b882abb8-ed46-4866-8e63-785e18a3707a"/>
+    <recordType typeId="05682453-4d2b-4b7b-845d-acf345de65de" valueTypeId="afb05ffc-bee0-48c5-afdd-a170b3408411"/>
+    <recordManagerType typeId="cf500f58-b78e-4eb3-9615-195464f7cc58" valueTypeId="e546c2c2-00d5-40b5-ae0d-49c4cb0f0d7a"/>
+  </producedTypes>
+  <name>ZUPC_ЗарплатаNet</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата net (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="20ee8833-c23b-4125-a223-0fcd4c540d28">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="10fbee25-9312-41fd-997a-6f14b7c0bb09">
+    <name>Зарплата_net</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата net</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b69d5d54-7414-4799-91c4-396e58dfce0b">
+    <name>Ставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="74bc7670-ca72-4eb7-8c46-ba9199f4c890">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="191e1e74-fca1-434b-8521-8695a955e325">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ae8a779b-cdf7-49e9-96e0-cc9dd0a0db40">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="00eeab00-5993-4de5-b644-60119cc80775">
+    <name>ФормаСпискаОтборПоСотруднику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка отбор по сотруднику</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

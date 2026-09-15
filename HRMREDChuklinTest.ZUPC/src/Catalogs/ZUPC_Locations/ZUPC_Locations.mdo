@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1e2c86c-9916-4372-9048-493d609b74e1">
+  <producedTypes>
+    <objectType typeId="c7259dec-ba4c-4f80-b3db-6c3f41cff8f6" valueTypeId="922155f6-6ee4-46ee-9458-390e5c0fad60"/>
+    <refType typeId="ddc42540-688a-4603-9fae-c1ca69a356ea" valueTypeId="9288b511-a233-4832-b2e7-c888f89cf25c"/>
+    <selectionType typeId="a61a18ac-d995-4827-89ee-1805a22d8f5c" valueTypeId="258f3944-aeee-46d8-82dc-d2c6b776ff66"/>
+    <listType typeId="2efc5331-0a17-4be1-a220-896df2e2f136" valueTypeId="a7fa5087-4be2-488e-936b-2a585137067e"/>
+    <managerType typeId="79369ade-3348-4a5f-a265-38c0d3119e48" valueTypeId="b9e46bd0-15ba-44a6-836a-9e16883c88d9"/>
+  </producedTypes>
+  <name>ZUPC_Locations</name>
+  <synonym>
+    <key>ru</key>
+    <value>Locations (City)(ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ZUPC_Locations.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ZUPC_Locations.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

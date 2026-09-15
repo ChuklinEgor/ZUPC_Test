@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="79d7a3fe-a244-4cfc-adff-d7bec1396fd0" extendedConfigurationObject="55c07d7a-bb2c-4111-9c68-c398f0267617">
+  <producedTypes>
+    <refType typeId="7e205c5c-a267-42aa-9e6d-6cd7cf7cecf7" valueTypeId="04950781-8879-46df-a907-992800ded767"/>
+    <listType typeId="23760888-319f-4523-80c1-2d5647172f74" valueTypeId="5289b6a8-6f03-407c-a8e4-093c5a390ab8"/>
+    <managerType typeId="33a245e9-382f-412d-be51-3f839af81ff7" valueTypeId="da5f93fe-e79c-42a4-8f4b-85cc7e9748da"/>
+  </producedTypes>
+  <name>КатегорииДоходовНДФЛ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

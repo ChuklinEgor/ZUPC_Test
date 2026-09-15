@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4018131a-c9a8-44da-91a9-159bfc15c2ae" extendedConfigurationObject="f3d81545-0083-4b4c-b1f2-abb472c96529">
+  <producedTypes>
+    <refType typeId="13973572-36da-4832-bb97-41dc06b99ad8" valueTypeId="88b3ca97-c525-4454-afdc-11748757c5aa"/>
+    <listType typeId="764b3a01-9605-4b7e-99b0-44142414cde6" valueTypeId="e2b4e59a-6cae-4c1e-8f18-3696c1655c17"/>
+    <managerType typeId="5df6f4d2-87e9-4424-a316-debdded75552" valueTypeId="75952bff-014b-4c09-9272-6384cc13ec8f"/>
+  </producedTypes>
+  <name>КомпенсацияУдержаниеОтпускаПриУвольнении</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="cf48b89a-df4f-439c-a65b-0eca0cb3d1d8" extendedConfigurationObject="59c1210c-7229-413a-904d-e26e956fba53">
+    <name>КомпенсироватьНеИспользованные</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="4be8241e-7351-4d83-a5ca-3c45c2085797" extendedConfigurationObject="850ff26f-8b2c-4790-b8e8-3606a66601f5">
+    <name>УдержатьЗаИспользованныеАвансом</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

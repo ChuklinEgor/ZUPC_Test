@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c8e05309-97cc-4ae6-9d85-90e516b10c24" extendedConfigurationObject="065d694b-1fa8-47e7-bccc-50dcdec01b77">
+  <producedTypes>
+    <selectionType typeId="128e40c8-fcc9-4165-ab3c-1339275c3d18" valueTypeId="ac5aa874-dd04-426c-bf70-bf6b4cb03604"/>
+    <listType typeId="2e509dbc-01b8-48a4-89bd-e33cee2a3609" valueTypeId="b3ac268e-ccc5-43c6-970f-84a9d1a0c9c1"/>
+    <managerType typeId="0a30a017-5273-4951-9cf2-5f7a726b2ef9" valueTypeId="2ef7fb9f-91d6-4ef1-b663-a4e39b01785f"/>
+    <recordSetType typeId="5108be38-6297-4966-bba9-f4d0dc181d95" valueTypeId="a7244825-8ae7-44d7-965c-1471ab9f59b1"/>
+    <recordKeyType typeId="b0093017-137d-47a4-855a-b22de352a655" valueTypeId="53dd1f11-e17b-41a9-b815-7de7f0cb773f"/>
+    <recordType typeId="acf6d272-a417-4a59-b144-531008a883c2" valueTypeId="bde9c69a-6827-4df9-808d-37d0eceafd82"/>
+    <recordManagerType typeId="946e3277-dabe-4cd9-b30d-36c4a9d77a91" valueTypeId="774405e9-5a93-46cf-956c-c32d08e1fe1d"/>
+  </producedTypes>
+  <name>ДокументыОтправленныеВ1САрхив</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="5cff64c4-41ea-431c-a122-79b5bfa67a78" extendedConfigurationObject="104078c2-466b-4843-aac6-8439b443430b">
+    <name>Уничтожен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="fef559e3-3b0d-4955-b526-7ab3f64db2d1" extendedConfigurationObject="14e0c9d1-1098-402c-b2d2-88f905b3237d">
+    <name>Документ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.СсылкаНаИнтегрируемыйОбъектБИА</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

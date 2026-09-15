@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7f48a25-c39a-4c5a-be09-d4800af2fa50">
+  <producedTypes>
+    <objectType typeId="5bb38ea7-5388-483b-9566-eb6de436730f" valueTypeId="bead5395-c7cf-4e36-b8c0-2846dc677d6f"/>
+    <refType typeId="0ad616e2-4021-4e80-8787-bac8668840e2" valueTypeId="809668da-d3ca-4e6b-b01c-cfe302c0af8c"/>
+    <selectionType typeId="ec36e3aa-5881-47b7-a750-70b00f3a32ed" valueTypeId="15efc445-b856-4d57-ac63-d5e4517d5219"/>
+    <listType typeId="76a7cd64-6caa-4b35-8c14-06143f05c48f" valueTypeId="3b3c7d62-5e1b-4a57-9041-05e6e0c41b30"/>
+    <managerType typeId="c21530ec-5bbc-4937-a6a1-6677c763ad0b" valueTypeId="54fe85fc-a6d2-40e3-9dc5-3988e3631e61"/>
+  </producedTypes>
+  <name>ZUPC_Desk_Team</name>
+  <synonym>
+    <key>ru</key>
+    <value>Desk\team (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ZUPC_Desk_Team.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ZUPC_Desk_Team.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.ZUPC_Desk_Team.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="e5eec5b5-c94f-4b51-b053-11e1c88d4d11">
+    <name>Department</name>
+    <synonym>
+      <key>ru</key>
+      <value>Department</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ZUPC_ActualDepartmentName</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="26efcc39-5155-4889-a0d3-42eb8714569a">
+    <name>TeamManager</name>
+    <synonym>
+      <key>ru</key>
+      <value>Team manager</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fafcd8d2-8c8c-405e-806d-22ce6fdfa45c">
+    <name>ZUPC_Locations</name>
+    <synonym>
+      <key>ru</key>
+      <value>Locations  (ZUPC)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ZUPC_Locations</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="66a743ce-1368-40c1-a2a3-e114433b1ac6">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5674ffd6-fcda-45d0-98c6-2a996d53a683" extendedConfigurationObject="31b6e35b-6ac8-4bad-8581-be21e901c63b">
+  <producedTypes>
+    <objectType typeId="51a6d3f4-9ef5-4e2e-a7d8-2a49e2463ca1" valueTypeId="98489e12-0f1e-48b6-ba8b-6a4e39dc933e"/>
+    <refType typeId="c33b5348-5456-41eb-b756-0bb5f8348dad" valueTypeId="7ef09ec5-7848-4817-bb7e-288f9f9f3c87"/>
+    <selectionType typeId="8c9d2aba-2d57-4974-b6e1-42d18443b025" valueTypeId="66f1b869-4b61-4c7b-8e60-c8fa51936f54"/>
+    <listType typeId="72720b11-856e-4efe-8ebb-cce8e69c32cf" valueTypeId="b5b9e5ca-2b78-4c4d-9eca-eea0bcd1fe41"/>
+    <managerType typeId="ee46f960-df90-4030-a05f-387552707e48" valueTypeId="20b40358-600b-480d-a446-ec58180628a2"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <defaultObjectForm>Extended</defaultObjectForm>
+    <defaultListForm>Extended</defaultListForm>
+    <defaultChoiceForm>Extended</defaultChoiceForm>
+  </extension>
+  <codeLength>10</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultObjectForm>Catalog.Сотрудники.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Сотрудники.Form.ZUPC_ФормаСпискаПодбора</defaultListForm>
+  <defaultChoiceForm>Catalog.Сотрудники.Form.ZUPC_ФормаВыбора2</defaultChoiceForm>
+  <attributes uuid="e02bee38-caf9-4a0c-8c1f-3bbc25da67ba">
+    <name>ZUPC_ActualDepartmentName</name>
+    <synonym>
+      <key>ru</key>
+      <value>Actual department name (ZUPC)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.ZUPC_ActualDepartmentName</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.ZUPC_Locations</name>
+      <field>Catalog.Сотрудники.Attribute.ZUPC_Locations</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e5889864-abc6-4b31-9639-01f349a81a2a">
+    <name>ZUPC_Desk_Team</name>
+    <synonym>
+      <key>ru</key>
+      <value>Desk/Team</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.ZUPC_Desk_Team</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.ZUPC_Locations</name>
+      <field>Catalog.Сотрудники.Attribute.ZUPC_Locations</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97a01102-2666-4475-92cd-ffcb41d89716">
+    <name>ZUPC_ActualPositionTitle</name>
+    <synonym>
+      <key>ru</key>
+      <value>ZUPC actual position title</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.ZUPC_ActualPositionTitle</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.ZUPC_Locations</name>
+      <field>Catalog.Сотрудники.Attribute.ZUPC_Locations</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5bc039a4-1db2-4927-a060-e072ef1d489b">
+    <name>ZUPC_Locations</name>
+    <synonym>
+      <key>ru</key>
+      <value>ZUPC locations</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.ZUPC_Locations</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="351cc607-7c9a-47be-9d37-8341dad6c3cd">
+    <name>Зарплата_net</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата (net)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="30ae6137-c3f2-4dd1-bca7-6762068a4c06">
+    <name>ЗарплатаПослеИспСрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата после испытательного срока</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="22e4690e-8405-4673-9da2-6dcae2ea3fff">
+    <name>ЗарплатаЧерез6Мес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата через 6 мес</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4024153f-c2d9-4eca-b71c-93ae8076c0da">
+    <name>ЗарплатаЧерез9Мес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата через 9 мес</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="075f67ee-de8f-41ba-9cf8-ff63c900d163">
+    <name>ЗарплатаЧерезГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата через год</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5cd6d506-892b-4790-8a08-1387c614829f">
+    <name>HiringSalary</name>
+    <synonym>
+      <key>ru</key>
+      <value>Hiring salary</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9875ea1f-e393-4ad3-83b7-ef881cc30160">
+    <name>ЗарплатаВОффере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата в оффере</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1a91407d-67c3-4a61-9d59-6fc04f05b95d">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fe3d3a56-3e45-4bb0-ab47-19032c407010">
+    <name>Возраст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возраст</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b6d318d-0f80-4c17-ac69-795448c22ae8">
+    <name>НомерМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер места</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.ZUPC_НомерМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.Сотрудники.Attribute.Офис</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="03f4f429-09ca-48d3-a0b8-0cad2acc3285">
+    <name>Офис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Офис</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.ZUPC_Офисы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="313d2dd9-2eba-4f32-92f5-72dcfc15a988" extendedConfigurationObject="0be23ee7-2744-4238-aae6-8cb1b220c38d">
+    <name>ВАрхиве</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="b217487a-6dd6-4036-a48b-6d878e4db2de" extendedConfigurationObject="a95dc28b-b486-4280-b951-496927fc9f6f">
+    <name>УточнениеНаименования</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="f612b306-0a88-4592-a5b6-65bf41b061da" extendedConfigurationObject="90a6e696-4ebc-4edb-acbe-13ee9084a388">
+    <name>ГоловнаяОрганизация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="df391cf8-aa4b-40db-bdd5-17979a149290" extendedConfigurationObject="56db42c8-34e7-466e-a3fe-c7a59ab68efa">
+    <name>ФизическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ФизическиеЛица</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="e811c83c-0da1-4cbe-aab1-d9f9114a9c19">
+    <name>ОрганизоватьРабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организовать рабочее место</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3786432b-1f1d-4c2d-a9ba-184b9394f594">
+    <name>СоздатьАккаунт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать аккаунт</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="602399e0-dd13-44d3-b147-07d9c45e00cf">
+    <name>Пропуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропуск</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.ZUPC_Пропуски</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3e526e23-8f5d-47a1-bb2c-b68e76cdb1c4">
+    <name>МобильныйТелефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильный телефон</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e75e86d5-b7e9-4944-a1c0-88df990f8232">
+    <name>Спеллинг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спеллинг</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b288909-1c5e-4ab9-8eec-fd80fd3ddd0c">
+    <name>КомментарииHR</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии HR</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a89a4164-cfb2-4d4f-b2f1-7abb1a8571ed">
+    <name>УдаленнаяРабота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаленная работа</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f421e845-6fdb-4233-b251-c05907914b70">
+    <name>ДМСЗаСвойСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДМС за свой счет</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e4b21918-7d71-42f6-b3e3-cf76d5f27632">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9956f747-11d6-49c1-b47e-69a8e67fc45f">
+    <name>ZUPC_DateJoingGroup</name>
+    <synonym>
+      <key>ru</key>
+      <value>Date of joining Group of Companies (ZUPC)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b3656728-3de1-4a8b-9bfa-25bc99031f20">
+    <name>ZUPC_Rosneft</name>
+    <synonym>
+      <key>ru</key>
+      <value>Rosneft (ZUPC)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4f29e447-59ff-414c-a3cf-1f33c38acaf5">
+    <name>ZUPC_RosneftDescription</name>
+    <synonym>
+      <key>ru</key>
+      <value>Rosneft description (ZUPC)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6b76443a-614e-4afa-941c-dab91c3f4fd4">
+    <name>ZUPC_SignOnBonus</name>
+    <synonym>
+      <key>ru</key>
+      <value>Sign-on bonus (ZUPC)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="616054ba-57ef-4b3f-a5f0-e946dd7e93d4">
+    <name>ZUPC_PerformanceBonusPerOffer</name>
+    <synonym>
+      <key>ru</key>
+      <value>Performance bonus per offer (ZUPC)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>          </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b7e0d44e-7a46-4fa2-8d41-6f8a16c99531">
+    <name>ZUPC_SignOnBonusNotificationSentDate</name>
+    <synonym>
+      <key>ru</key>
+      <value>Sign-on bonus notification sent date (ZUPC)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f56b6b71-7b39-49b0-8883-83ba6c4ff810">
+    <name>ZUPC_NonEstablishedEmployees</name>
+    <synonym>
+      <key>ru</key>
+      <value>Non established employees (ZUPC)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2611ac18-c963-4be7-8809-cf696a70b9e1">
+    <name>ZUPC_RemoteWorkLocation</name>
+    <synonym>
+      <key>ru</key>
+      <value>Remote work location (ZUPC)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.ZUPC_RemoteWorkLocation</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f8e316d-e18a-42fb-919b-8b6ea712920f">
+    <name>ZUPC_EmploymentInMultipleLocations</name>
+    <synonym>
+      <key>ru</key>
+      <value>Employment in multiple locations (ZUPC)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.ZUPC_EmploymentInMultipleLocations</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d4943565-1b93-4c13-9363-722cde79bcaf">
+    <name>ZUPC_SalaryInOffer</name>
+    <synonym>
+      <key>ru</key>
+      <value>ZUPC salary in offer</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>EnumRef.ZUPC_SalaryInOffer</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="717ea609-2473-413c-a20f-c655931f50ec">
+    <name>ZUPC_desk_missing</name>
+    <synonym>
+      <key>ru</key>
+      <value>Desk missing (ZUPC)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="186ed56b-63c7-49e9-87a0-a9cdc89aa0d2">
+    <name>ZUPC_Transfer</name>
+    <synonym>
+      <key>ru</key>
+      <value>Transfer (ZUPC)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e000a946-e397-4d85-b64d-5926d4c511a3">
+    <name>ZUPC_DescriptionAccomodation</name>
+    <synonym>
+      <key>ru</key>
+      <value>Description accomodation (ZUPC)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="4a1cf386-2bb2-45ed-a162-a15620fb1101">
+    <producedTypes>
+      <objectType typeId="4415e225-9609-4325-9b7b-9aef8105c35e" valueTypeId="1b7faacf-baad-4a94-8fea-1499f4272e73"/>
+      <rowType typeId="8d4d76bf-b47f-4ec6-9c10-91ced582e10d" valueTypeId="a7473c3f-81d5-47e2-834a-d44f4f02a96a"/>
+    </producedTypes>
+    <name>ZUPC_PerformanceBonusNotificationDates</name>
+    <synonym>
+      <key>ru</key>
+      <value>Performance bonus notification dates (ZUPC)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="bb28cf40-75fd-4c97-8544-e40f463b9617">
+      <name>NotificationDate</name>
+      <synonym>
+        <key>ru</key>
+        <value>Notification date</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="37950bfb-199f-4a03-9272-3efd6a6e9c63" extendedConfigurationObject="2217d703-fd43-489d-8b41-3e2e97a48688">
+    <producedTypes>
+      <objectType typeId="8a55edd6-0719-4a2d-8ffd-911f6642dea1" valueTypeId="ef3be90a-f7cf-4884-a913-bd96684b4f50"/>
+      <rowType typeId="49b92df4-0ba8-48c9-976b-2d4b0d2e47d4" valueTypeId="abae355f-5c27-4966-8b54-9f98af62ab07"/>
+    </producedTypes>
+    <name>УдалитьНаборыЗначенийДоступа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </tabularSections>
+  <forms uuid="c7aa0e8a-0186-467e-a5b3-c0f6701e410e" extendedConfigurationObject="a42b835f-e936-4ec5-9d00-8cf0b095b0bb">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="36651157-56db-4599-933d-a65303a9bdc8">
+    <name>ZUPC_ФормаСпискаПодбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>ZUPC форма списка подбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f0cede5b-031c-4ed2-862f-3cf179a27024">
+    <name>ZUPC_ПросмотрHTMLДляExpress</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр HTML для eXpress</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c1b3bd79-f5bc-4397-aa82-59406bf3fd06">
+    <name>ZUPC_ФормаВыбора2</name>
+    <synonym>
+      <key>ru</key>
+      <value>ZUPC форма выбора2</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a85eeda9-f00f-44bf-8582-d3aa42964dc7">
+    <name>ХД_ПеремещениеСотрудника_HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод сотрудника HTML</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <commands uuid="556bc685-493d-46a0-8b9c-1d033f0ad49b">
+    <name>ЗарплатаСотрудникаNet</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата сотрудника net</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <synonym>Extended</synonym>
+      <group>Checked</group>
+    </extension>
+    <group>FormNavigationPanelImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Сотрудники</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

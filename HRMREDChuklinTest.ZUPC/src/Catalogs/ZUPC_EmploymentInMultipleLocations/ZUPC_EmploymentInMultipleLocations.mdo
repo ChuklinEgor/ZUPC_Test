@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e7c32af-6ffd-4ac9-978e-5c5a7897388c">
+  <producedTypes>
+    <objectType typeId="e70d30fd-5822-45bb-8aba-4d2159cdd03c" valueTypeId="c1602c8a-8fa8-46c6-bef7-9a695a0e6ea2"/>
+    <refType typeId="03c1aab6-ff53-4a11-a659-8499f3c7d9f2" valueTypeId="44b481c1-3c3e-4bfc-8b95-2adcffaf16bc"/>
+    <selectionType typeId="98b8e5f9-9010-4799-a24d-70b4c5e1bb78" valueTypeId="b143c7de-7ece-4b2c-959d-8e2424217094"/>
+    <listType typeId="5e7b52b9-43ae-4fc6-ac30-70771bbad5c3" valueTypeId="8c771506-8c81-476b-9d72-96a0c6eee749"/>
+    <managerType typeId="69c533b0-c0d6-4799-9372-42000f3f9727" valueTypeId="23bd514a-342c-4d3b-8762-30e4e0afd82c"/>
+  </producedTypes>
+  <name>ZUPC_EmploymentInMultipleLocations</name>
+  <synonym>
+    <key>ru</key>
+    <value>Employment in multiple locations (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ZUPC_EmploymentInMultipleLocations.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ZUPC_EmploymentInMultipleLocations.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

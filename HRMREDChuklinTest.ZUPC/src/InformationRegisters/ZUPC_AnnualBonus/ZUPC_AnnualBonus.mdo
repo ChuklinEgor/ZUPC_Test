@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2542b2df-97e7-4f70-a64e-4fd9b8377c9b">
+  <producedTypes>
+    <selectionType typeId="9463d541-24e3-407c-9297-27003d169eba" valueTypeId="14d50e33-77ca-4b91-8a4c-20c9cafe4f98"/>
+    <listType typeId="02e74366-f05b-48c4-bfc0-d32ae77d30c2" valueTypeId="a76d589a-4a17-424f-947e-673a8c5164c4"/>
+    <managerType typeId="e843d532-c714-42ea-a0ee-305e8e48e607" valueTypeId="eedaf77f-1f45-40dc-8d7e-184f408782e5"/>
+    <recordSetType typeId="403875df-c97f-476e-b82b-1a23e2ebff25" valueTypeId="3c63080b-9350-49bd-b88a-837fa993d1f0"/>
+    <recordKeyType typeId="ab473d03-c0a9-4f03-b7b2-dddaa07bec40" valueTypeId="61b81596-d28f-48cd-971b-bc604b5de001"/>
+    <recordType typeId="6a97ac31-6f3a-4595-9ff7-a5f44c83a63f" valueTypeId="85e6af43-8d85-472f-b412-53dbda211ee7"/>
+    <recordManagerType typeId="c86df321-1338-41b2-9b51-e70e62cb76c0" valueTypeId="af4e0135-8949-4a30-b032-82f61f8303b0"/>
+  </producedTypes>
+  <name>ZUPC_AnnualBonus</name>
+  <synonym>
+    <key>ru</key>
+    <value>Annual bonus (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a69051ba-b9f0-4eb7-88cf-db701b440b17">
+    <name>Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="95f3f6dd-3253-4747-be74-76cd0c7cbec2">
+    <name>КоличествоОкладов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество окладов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="49ca96b5-83e0-4a55-9b64-f7c2a451e736">
+    <name>Прората</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прората</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6d4b11d8-8eab-44d1-83dc-963ed07c583e">
+    <name>СуммаБонуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма бонуса</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0265436f-6e73-4bf6-83b4-afc76737b54f">
+    <name>БонусВОффере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бонус в оффере</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="21345494-f850-46be-9eba-539883128806">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="e89d037e-eb20-4bc0-b13a-e1ea32bdb30d">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="12d2ae21-47cd-4bc0-a7c9-8ec150e48a50">
+    <name>ГодБонуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год бонуса</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=yyyy</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

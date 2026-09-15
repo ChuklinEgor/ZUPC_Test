@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dfc655d-b08c-4162-bf13-35c19951a328">
+  <producedTypes>
+    <refType typeId="f2f7c3f6-967e-4799-8227-d235e77bdb31" valueTypeId="451c57cc-da86-4237-94dc-5e3e3a06025e"/>
+    <listType typeId="744b2e10-d1b1-4fc4-bd45-eec77b35c2db" valueTypeId="633c56d0-7ff4-4e4b-aeb5-9201a4b3a2f6"/>
+    <managerType typeId="169e88ca-fe2d-456f-8c31-680e6a51a6fb" valueTypeId="1bbf4ec3-1374-491e-be26-76abc1c9fe89"/>
+  </producedTypes>
+  <name>ZUPC_ReasonForTermination</name>
+  <synonym>
+    <key>ru</key>
+    <value>Reason for termination (ZUPC)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e0ad41b3-2bb8-4597-9a07-84302af02db3">
+    <name>ZUPC_ResignedAsCoInitiative</name>
+    <synonym>
+      <key>ru</key>
+      <value>Resigned as co initiative (ZUPC)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60a62290-37a4-4173-801c-67aaa32fbe42">
+    <name>ZUPCResignedAtTheirOwnWill</name>
+    <synonym>
+      <key>ru</key>
+      <value>ZUPCResigned at their own will</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

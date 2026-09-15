@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35e7a24f-1beb-4405-82c8-ca07bd3562a0">
+  <producedTypes>
+    <selectionType typeId="84a96c05-8f0f-4ddc-a1c8-97708a4ecc72" valueTypeId="18d8838e-50b1-4ae6-9f0b-e1f0120c5637"/>
+    <listType typeId="d1161513-bf18-4c4f-b567-1638f51bff3c" valueTypeId="768dfc54-686b-42c4-b312-2ff5a95e66b6"/>
+    <managerType typeId="5da1c5cc-29e1-4aae-933e-06871ab663a8" valueTypeId="642dc25e-4956-4724-87cf-0d0bca766c21"/>
+    <recordSetType typeId="5766c21d-9404-402d-80d4-3e3c64c8adf1" valueTypeId="d25dd54e-0775-45c9-b563-86e1a6739f98"/>
+    <recordKeyType typeId="518d69ed-909e-43b8-bc95-4b165d7c40d9" valueTypeId="51ee18fd-5d48-4fd8-badb-8a488314ab97"/>
+    <recordType typeId="e55bc708-b1c5-4824-ac55-b9b95e6dbd43" valueTypeId="bf34c82a-2936-4555-8bda-47637ce32964"/>
+    <recordManagerType typeId="b65f5178-e7cd-48ed-ab56-7d55c4638b8e" valueTypeId="f6783bd2-1d24-4d4d-8986-e66d4ac93609"/>
+  </producedTypes>
+  <name>ZUPC_ВалютаВидаНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюта вида начисления (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d3e48d00-8199-43b9-b7bb-55368240c9cb">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="268f1327-7051-4ef6-b1db-bbfead39fb2f">
+    <name>ВидНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид начисления</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef.Начисления</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

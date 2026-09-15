@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3e194e48-b12f-4be7-b12f-e89f8df36c3c" extendedConfigurationObject="2388e3f4-b23b-488f-9ea5-d9434efca195">
+  <producedTypes>
+    <containerType typeId="4b84f630-e7a4-4df2-a287-bdbf017ed79d" valueTypeId="fbc9f8c9-2723-4701-94b3-ea73198fe5e2"/>
+  </producedTypes>
+  <name>КурсВалюты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Number</type>
+      </types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>4</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </typeExtension>
+  </extension>
+</mdclass:DefinedType>

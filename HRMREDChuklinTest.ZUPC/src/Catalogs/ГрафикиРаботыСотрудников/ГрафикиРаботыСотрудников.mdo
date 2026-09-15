@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="422c63c6-7ae6-4630-acb3-2289b88bb5c8" extendedConfigurationObject="a0ee524d-89c5-4b2b-b1df-88f9c84a7e28">
+  <producedTypes>
+    <objectType typeId="37786cd2-695f-4a84-9a17-2ddbd1e4be6e" valueTypeId="a6f5cc6d-3662-4bb8-a4f2-766a9420be1d"/>
+    <refType typeId="320e6a74-d57f-46cd-8f9d-2db8e51cae8f" valueTypeId="9c1c49e5-02d9-4edf-a6d8-f6f4d25a04ef"/>
+    <selectionType typeId="88a66cde-e2b8-4089-a762-6a1c639f2b6b" valueTypeId="b2fca4ea-9bd7-4db3-8da2-d3ba84f1d59e"/>
+    <listType typeId="ecfb0697-1859-4d7b-bd31-f09c24b786c6" valueTypeId="ded64fe7-79ce-4942-8dab-372204777eb4"/>
+    <managerType typeId="c783fe80-181b-4f5b-9262-0955dcdf8950" valueTypeId="ef26738b-a439-408b-983c-a665510dfc7d"/>
+  </producedTypes>
+  <name>ГрафикиРаботыСотрудников</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

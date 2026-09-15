@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="902990f3-aba7-4352-b9cc-b7d8cbab191f">
+  <producedTypes>
+    <objectType typeId="06826651-28e7-4603-983c-26450a9d0e20" valueTypeId="7dad5933-9c4c-4a81-9f2f-4c65b905f0e5"/>
+    <refType typeId="ea5a990c-79f9-4ac3-8c4d-22431945829f" valueTypeId="c2dbbc8d-09b1-4676-848a-935c09920296"/>
+    <selectionType typeId="ee350aa6-9758-4e0e-9c59-4b10a9cb6be1" valueTypeId="f3bdf1dc-47c4-41aa-93f0-d6d0c2a5de56"/>
+    <listType typeId="2a276549-90da-4eaa-ab12-4c54923b7e01" valueTypeId="e6c40a47-38cd-4f25-a9bc-b4114acd65eb"/>
+    <managerType typeId="5e8c0de1-0be5-4f9b-abff-3beaf2feb2bf" valueTypeId="9bf161a3-5d2b-4961-be63-ffaecbf7b853"/>
+  </producedTypes>
+  <name>ZUPC_Пропуски</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пропуски (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ZUPC_Пропуски.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ZUPC_Пропуски.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

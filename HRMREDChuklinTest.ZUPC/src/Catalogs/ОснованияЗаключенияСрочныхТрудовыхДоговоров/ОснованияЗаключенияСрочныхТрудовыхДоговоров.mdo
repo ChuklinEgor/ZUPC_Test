@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7bfd121e-7c04-4528-914c-49e8553573cc" extendedConfigurationObject="d0a7b4ae-40c8-4914-92d5-ed292607ea67">
+  <producedTypes>
+    <objectType typeId="ca025937-7dde-4831-965a-962cfe4701aa" valueTypeId="7dab0589-1cc3-4af6-b876-f7808898b6ba"/>
+    <refType typeId="f10d1043-80e3-4ab8-9d4b-0a61a0ca3461" valueTypeId="7ea70234-6017-4f50-a0a9-82db7ba09126"/>
+    <selectionType typeId="b912a69f-aec0-4bd3-88a9-5b3e326ae177" valueTypeId="a297a124-238f-4712-a615-bdc361386993"/>
+    <listType typeId="363715f9-b15b-4c6a-b72d-7f199e190252" valueTypeId="151a6075-fa6b-4e38-bf66-dfb6a4aa8cf5"/>
+    <managerType typeId="5be7ebb0-061a-46fc-ad80-e9caed6753df" valueTypeId="06bc8643-0167-47fa-b240-966d455da7cc"/>
+  </producedTypes>
+  <name>ОснованияЗаключенияСрочныхТрудовыхДоговоров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

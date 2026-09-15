@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1040767d-7391-4431-a076-7f877437c727">
+  <producedTypes>
+    <objectType typeId="a7cc71ca-0fc5-49d7-bdee-b096f8383791" valueTypeId="46303899-91de-4ff5-875e-fd11b2b387ce"/>
+    <managerType typeId="ddc0dcc9-6318-4d9c-bbfc-cd3a46ff387b" valueTypeId="b12fa5be-25b6-4775-8fec-4e1344acc14b"/>
+  </producedTypes>
+  <name>ZUPC_ТекущиеКадровыеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие кадровые данные (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_ТекущиеКадровыеДанные.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="8e87420d-f7c0-4771-9e47-7c1e2085a1a7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

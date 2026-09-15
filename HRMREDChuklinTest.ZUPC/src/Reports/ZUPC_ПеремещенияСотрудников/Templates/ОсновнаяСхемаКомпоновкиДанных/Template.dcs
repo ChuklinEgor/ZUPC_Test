@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Наименование</dataPath>
+			<field>Наименование</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Должность</dataPath>
+			<field>Должность</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдентификаторЗаписи</dataPath>
+			<field>ИдентификаторЗаписи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоСтавок</dataPath>
+			<field>КоличествоСтавок</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФизическоеЛицо</dataPath>
+			<field>ФизическоеЛицо</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоДоговоруГПХ</dataPath>
+			<field>ПоДоговоруГПХ</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоСтавокПредставление</dataPath>
+			<field>КоличествоСтавокПредставление</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Филиал</dataPath>
+			<field>Филиал</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДолжностьПоШтатномуРасписанию</dataPath>
+			<field>ДолжностьПоШтатномуРасписанию</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РабочееМесто</dataPath>
+			<field>РабочееМесто</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭтоГоловнойСотрудник</dataPath>
+			<field>ЭтоГоловнойСотрудник</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидЗанятости</dataPath>
+			<field>ВидЗанятости</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидСобытия</dataPath>
+			<field>ВидСобытия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидДоговора</dataPath>
+			<field>ВидДоговора</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Начало</dataPath>
+			<field>Начало</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Окончание</dataPath>
+			<field>Окончание</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоВСтруктуреПредприятия</dataPath>
+			<field>МестоВСтруктуреПредприятия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПометкаУдаления</dataPath>
+			<field>ПометкаУдаления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВАрхиве</dataPath>
+			<field>ВАрхиве</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Код</dataPath>
+			<field>Код</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ДанныеДляПодбораСотрудников.Наименование КАК Наименование,
+	ДанныеДляПодбораСотрудников.Сотрудник КАК Сотрудник,
+	ДанныеДляПодбораСотрудников.ФизическоеЛицо КАК ФизическоеЛицо,
+	ДанныеДляПодбораСотрудников.ИдентификаторЗаписи КАК ИдентификаторЗаписи,
+	ДанныеДляПодбораСотрудников.ПоДоговоруГПХ КАК ПоДоговоруГПХ,
+	ДанныеДляПодбораСотрудников.Филиал КАК Филиал,
+	ДанныеДляПодбораСотрудников.Подразделение КАК Подразделение,
+	ДанныеДляПодбораСотрудников.Организация КАК Организация,
+	ДанныеДляПодбораСотрудников.Должность КАК Должность,
+	ДанныеДляПодбораСотрудников.ДолжностьПоШтатномуРасписанию КАК ДолжностьПоШтатномуРасписанию,
+	ДанныеДляПодбораСотрудников.РабочееМесто КАК РабочееМесто,
+	ДанныеДляПодбораСотрудников.ЭтоГоловнойСотрудник КАК ЭтоГоловнойСотрудник,
+	ДанныеДляПодбораСотрудников.ВидЗанятости КАК ВидЗанятости,
+	ДанныеДляПодбораСотрудников.ВидСобытия КАК ВидСобытия,
+	ДанныеДляПодбораСотрудников.КоличествоСтавок КАК КоличествоСтавок,
+	ДанныеДляПодбораСотрудников.КоличествоСтавокПредставление КАК КоличествоСтавокПредставление,
+	ДанныеДляПодбораСотрудников.ВидДоговора КАК ВидДоговора,
+	ДанныеДляПодбораСотрудников.Начало КАК Начало,
+	ДанныеДляПодбораСотрудников.Окончание КАК Окончание,
+	ДанныеДляПодбораСотрудников.МестоВСтруктуреПредприятия КАК МестоВСтруктуреПредприятия,
+	ДанныеДляПодбораСотрудников.ПометкаУдаления КАК ПометкаУдаления,
+	ДанныеДляПодбораСотрудников.ВАрхиве КАК ВАрхиве,
+	ДанныеДляПодбораСотрудников.Код КАК Код
+ИЗ
+	РегистрСведений.ДанныеДляПодбораСотрудников КАК ДанныеДляПодбораСотрудников</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сотрудник</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФизическоеЛицо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Начало</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Наименование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Код</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Должность</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидДоговора</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидЗанятости</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>1151af80-ddfc-4f9f-a899-238d9132180d</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

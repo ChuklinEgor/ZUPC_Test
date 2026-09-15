@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f32a58e9-8130-491f-976c-62fec73b74c9" extendedConfigurationObject="d9e30baf-cdc7-4617-bd3f-3ba73a476d7e">
+  <producedTypes>
+    <objectType typeId="8c9d6253-b8d2-4ef8-af14-57d2b3bda161" valueTypeId="5fee4745-61ed-4f82-b071-d841c25f03d8"/>
+    <refType typeId="51c51689-3fca-4555-a9b7-7a2919e7243d" valueTypeId="669df844-e916-46ea-a7c8-328aba8c0cb1"/>
+    <selectionType typeId="6e950d3d-e0e0-454f-b805-6e40c7cd617a" valueTypeId="2a164597-98e3-4844-a45f-4c2f44ff5c28"/>
+    <listType typeId="53f1be7f-5d79-4c7f-8664-3eba8d365abf" valueTypeId="1c37da03-0385-4760-a4f7-eec98e978f1a"/>
+    <managerType typeId="8e9fa83b-75c7-4fba-95f2-2ca2ccb9631a" valueTypeId="7e26a7c9-7f36-4776-9a54-20aec17c746b"/>
+  </producedTypes>
+  <name>СтатьиРасходовЗарплата</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

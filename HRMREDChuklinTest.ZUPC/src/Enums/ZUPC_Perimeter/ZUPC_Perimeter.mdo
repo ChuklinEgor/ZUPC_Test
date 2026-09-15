@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94a4fd7b-86ff-4ed1-8722-2772ea52f318">
+  <producedTypes>
+    <refType typeId="7531d8bf-fc62-44b0-bc74-649d8959a24b" valueTypeId="569e311b-6090-4b29-9b07-3a066b38c428"/>
+    <listType typeId="ac94df61-a509-44e3-a6aa-8e8be825878c" valueTypeId="8fb5f4b5-aac5-4a38-b2c0-5ef3acc405da"/>
+    <managerType typeId="69437523-3864-4651-800f-9b662b293190" valueTypeId="d52002d0-730b-4c7f-a5e3-b96e1b761fde"/>
+  </producedTypes>
+  <name>ZUPC_Perimeter</name>
+  <synonym>
+    <key>ru</key>
+    <value>Perimeter (ZUPC)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1f3c635b-a85b-466d-9168-9daf7566bd6a">
+    <name>Blue</name>
+    <synonym>
+      <key>ru</key>
+      <value>Blue</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d386dfce-602c-4e2c-8fd4-39f6f76b6392">
+    <name>Green</name>
+    <synonym>
+      <key>ru</key>
+      <value>Green</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="049a74fc-5af4-40c9-907f-2bbe1969c2b2">
+    <name>Red</name>
+    <synonym>
+      <key>ru</key>
+      <value>Red</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

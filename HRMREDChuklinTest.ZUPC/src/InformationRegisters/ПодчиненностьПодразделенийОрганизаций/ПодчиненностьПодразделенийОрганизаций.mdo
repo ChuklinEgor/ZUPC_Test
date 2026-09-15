@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a6ccc530-f3e1-4db1-beb1-42eb833af57f" extendedConfigurationObject="09c1065d-1cfb-4d7a-b455-203e4d887550">
+  <producedTypes>
+    <selectionType typeId="b949e905-3fdc-42bc-becc-cdf21b560f94" valueTypeId="a2c82120-991b-406a-ab04-7d52bc718fee"/>
+    <listType typeId="8b2405c1-16ef-4fb5-a474-e10c441164e5" valueTypeId="c38f88a0-a77b-4f8e-a69c-83822e1a28ae"/>
+    <managerType typeId="af00f0e3-700e-43cf-badb-fa609d34b894" valueTypeId="b26b8cf0-64ae-4ad1-9902-01600bf12b01"/>
+    <recordSetType typeId="57d986b2-27cd-4298-afeb-cbfdc21d5031" valueTypeId="790bf812-789c-4582-83bb-1ed6a0c4d36e"/>
+    <recordKeyType typeId="a6ff639d-e383-491c-8a59-f9d6c4882d0e" valueTypeId="09f83ee9-13ab-4766-a834-903d671509fc"/>
+    <recordType typeId="e0194526-8359-4ce1-980d-4d90605dccdc" valueTypeId="67e4c544-9fc2-4953-a64f-37952a85d90a"/>
+    <recordManagerType typeId="7dd9940b-8ef2-4095-a3a2-3474062e7f08" valueTypeId="b4a3db31-cf52-4d73-b87e-a72cce8f0d00"/>
+  </producedTypes>
+  <name>ПодчиненностьПодразделенийОрганизаций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="88dda284-8816-4293-aa9b-582bd9bdd7c5" extendedConfigurationObject="e5593459-813f-49a5-b757-3e7bef658fbd">
+    <name>Подразделение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ПодразделенияОрганизаций</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="3912a156-e451-42ef-8c7b-7ff10370c666" extendedConfigurationObject="a4707376-2101-44fb-8ab3-d6a4c7c42b59">
+    <name>ВышестоящееПодразделение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ПодразделенияОрганизаций</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

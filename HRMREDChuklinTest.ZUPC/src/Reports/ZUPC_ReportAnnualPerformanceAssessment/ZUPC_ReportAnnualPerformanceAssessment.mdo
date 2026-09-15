@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8a5c4d8-4593-4f00-a4fd-42834060134b">
+  <producedTypes>
+    <objectType typeId="3a50b87e-e138-4653-8d5a-c1443add6207" valueTypeId="28d7ca33-5b90-4a3b-8019-52b774c2a99f"/>
+    <managerType typeId="47fa521c-492f-47f2-ac82-899ffd8b544d" valueTypeId="8ac957a1-2b2d-4f34-add8-cfd9af19def8"/>
+  </producedTypes>
+  <name>ZUPC_ReportAnnualPerformanceAssessment</name>
+  <synonym>
+    <key>ru</key>
+    <value>Report annual performance assessment (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_ReportAnnualPerformanceAssessment.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="47f41b22-116d-41b3-99c9-b58ffc827ad1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

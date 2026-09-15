@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2d8a1079-0f9f-4e4f-a28a-65c90c619455" extendedConfigurationObject="b6643953-a77d-4101-a189-9d3aea1dc9b4">
+  <producedTypes>
+    <objectType typeId="dfe51421-4e41-4271-a3f7-71eb34857f4a" valueTypeId="e9ffbca5-4d3e-4f34-8fb7-c80b7a15248c"/>
+    <refType typeId="602764da-604a-4a5d-aea0-1799f7e325c5" valueTypeId="1f49f520-bc03-406c-9d79-e592bfd113e1"/>
+    <selectionType typeId="6f5c2d7d-14a8-4044-903d-e84ed6047b34" valueTypeId="51db9c2b-c6e2-49fb-9971-b77307d38649"/>
+    <listType typeId="861dc4ed-302c-4a08-95f2-7d71de5b5ed5" valueTypeId="16ffcae8-987d-4548-aab5-95ff75902f46"/>
+    <managerType typeId="7117524b-610b-4a40-a540-aeb7c04c18c6" valueTypeId="28d552e5-d273-48ee-bdbb-73346f286d50"/>
+  </producedTypes>
+  <name>СтепениРодстваФизическихЛиц</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

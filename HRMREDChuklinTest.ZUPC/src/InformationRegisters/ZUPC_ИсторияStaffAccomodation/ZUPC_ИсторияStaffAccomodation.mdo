@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b2d381c-88f6-41b5-8e8d-8a13c3065a90">
+  <producedTypes>
+    <selectionType typeId="6ff31a1f-58d3-4aa4-97c3-d42569643912" valueTypeId="d46f4ec4-a737-4ac2-97e7-3be487f08857"/>
+    <listType typeId="39000116-955e-4138-80bb-90c929427531" valueTypeId="7f3626f8-e014-4abd-a32d-15c0f3264f4e"/>
+    <managerType typeId="85172d68-b25d-4604-afae-3c748ef91946" valueTypeId="6153504c-414d-45cb-b694-67850b102cfd"/>
+    <recordSetType typeId="5c25a0b6-1989-482d-96f1-99ecf95889df" valueTypeId="eadefad7-d7b2-4a81-b882-3411877102fa"/>
+    <recordKeyType typeId="88414dd8-58a0-4b6c-a105-d46c0c93dce5" valueTypeId="230a0d78-c99a-4088-812e-8a8b8900a686"/>
+    <recordType typeId="215337b5-8261-4155-bb51-fd9b6eeea852" valueTypeId="aaed2282-4029-4120-bef5-38395bb806bc"/>
+    <recordManagerType typeId="ea245251-06c2-4d08-9c59-aec41ed844ce" valueTypeId="ab0ecabe-a6ec-44cc-a51f-727a9a0b2408"/>
+  </producedTypes>
+  <name>ZUPC_ИсторияStaffAccomodation</name>
+  <synonym>
+    <key>ru</key>
+    <value>История staff accomodation (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e4fab801-9948-4843-90e7-66307f233cba">
+    <name>Офис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Офис</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ZUPC_Офисы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="871bfcac-6091-4f58-aaf0-5a24c1341cab">
+    <name>НомерМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер места</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ZUPC_НомерМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2351e28c-7132-47b0-b317-89b2c8e4a688">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1cf30dfa-37f8-48b7-8cc8-afc0c337ebc3">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c25effae-cc94-4ce4-94e1-84d99a8350d9">
+    <name>ФормаСпискаОтборПоОфису</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка отбор по офису</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

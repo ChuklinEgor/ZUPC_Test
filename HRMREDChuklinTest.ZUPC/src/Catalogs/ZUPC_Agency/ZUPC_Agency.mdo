@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5077d5a1-73db-4f2e-889e-36f4064a9ff3">
+  <producedTypes>
+    <objectType typeId="415a00fd-c208-42d7-9710-d1bd25d20371" valueTypeId="8fd9c52f-f1b3-4b64-bc84-5ee1c8f3fc03"/>
+    <refType typeId="5424b9b2-ba97-4631-9b0c-ed513652a9e3" valueTypeId="e27b9099-7151-4364-9f02-8586d9a1d975"/>
+    <selectionType typeId="b3d3afb5-4d5c-4a28-b414-66b2b7f74bdd" valueTypeId="92042d57-9893-4d20-9644-a662905d07b4"/>
+    <listType typeId="d84b8d7b-9dd9-4636-a8f0-49973fb660c8" valueTypeId="0f477bda-71d6-42c5-980b-b069b1234635"/>
+    <managerType typeId="471f7ad3-bace-44bc-8e1f-1d2b8dea410f" valueTypeId="11337994-477f-4766-9ced-e44682e40ca0"/>
+  </producedTypes>
+  <name>ZUPC_Agency</name>
+  <synonym>
+    <key>ru</key>
+    <value>Agencies (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ZUPC_Agency.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ZUPC_Agency.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

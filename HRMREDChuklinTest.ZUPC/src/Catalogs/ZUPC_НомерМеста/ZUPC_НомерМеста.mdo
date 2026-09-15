@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94186dea-3000-4cf8-ab27-11132d756e5b">
+  <producedTypes>
+    <objectType typeId="9605a279-1b39-4473-bfc2-fc3b48417e3d" valueTypeId="cbd3470d-c4c6-4e5b-9b20-62d46d5f375d"/>
+    <refType typeId="8bf23946-8db7-4987-824e-0c8fa2c2c4e0" valueTypeId="adff566e-3c80-487a-9536-a9033babcfd4"/>
+    <selectionType typeId="8f677a96-e503-4830-8445-a9923a3717d3" valueTypeId="6b1f4295-cc24-4b49-9e9d-bf21e2c9610c"/>
+    <listType typeId="7d2c2269-2130-4721-b9c3-fba242617523" valueTypeId="287427a3-0f9c-42c1-a563-c960f36249d2"/>
+    <managerType typeId="628476f2-8b9a-4a7e-afab-ce0c96ed316f" valueTypeId="5019f2fb-acce-4c2b-a448-e560a13f726c"/>
+  </producedTypes>
+  <name>ZUPC_НомерМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер места (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ZUPC_НомерМеста.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ZUPC_НомерМеста.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ZUPC_Офисы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.ZUPC_НомерМеста.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="c46d5224-69f3-4521-91d7-8a3184958f68">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

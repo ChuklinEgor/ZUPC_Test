@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="626d44cb-7a9f-4407-a311-74ed49eb32a9">
+  <name>ЦЗ_ОграничениеДоступаКРеквизитамЦЗ_Удалить</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ц з ограничение доступа к реквизитам ц з удалить</value>
+  </synonym>
+</mdclass:Role>

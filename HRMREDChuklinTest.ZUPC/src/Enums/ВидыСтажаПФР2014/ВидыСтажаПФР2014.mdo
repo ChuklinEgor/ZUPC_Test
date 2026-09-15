@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="94d521e2-b680-43c5-b481-a48edb326296" extendedConfigurationObject="bbe6013d-a278-4946-ba90-d364cddf1041">
+  <producedTypes>
+    <refType typeId="affe09a6-3d31-4e76-bf01-85b6150ef40a" valueTypeId="f27a4bff-bf33-422c-a1b4-4c91716980e9"/>
+    <listType typeId="8860cb23-0271-4b01-baa1-966f12304094" valueTypeId="2d06f931-2a5f-4b8e-8cdb-c93a6b2dc1be"/>
+    <managerType typeId="d4e4708f-452c-40d5-b2e7-7f5adcc747d2" valueTypeId="d0d8289a-2631-4c32-8ad0-7aeea23e7e8b"/>
+  </producedTypes>
+  <name>ВидыСтажаПФР2014</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="6da0691f-2c88-405a-810e-bd0229e94cab" extendedConfigurationObject="aff5d62e-b868-4ef5-8246-4e6cab8eed18">
+    <name>МЕСЯЦ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="ed65d450-cd43-495c-8a86-ec92bdd62f79" extendedConfigurationObject="0fade886-8b43-4a29-ba55-570eb15e3d73">
+    <name>МЕДНЕТРУД</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

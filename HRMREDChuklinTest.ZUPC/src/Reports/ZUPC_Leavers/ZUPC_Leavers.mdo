@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6a2f47e-b26e-4913-9965-6d6ecec72e89">
+  <producedTypes>
+    <objectType typeId="dd32ace0-4c17-4596-8976-d494ac54537d" valueTypeId="4926e161-4f3c-412c-b973-9d5c8841ba3b"/>
+    <managerType typeId="06296ce1-48ea-4c70-b60c-707bd138fcb8" valueTypeId="4d91015b-fb5c-43ea-bfac-6d6d6186d8dd"/>
+  </producedTypes>
+  <name>ZUPC_Leavers</name>
+  <synonym>
+    <key>ru</key>
+    <value>Leavers (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_Leavers.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d45aacc1-4fd5-468c-9e7d-1a5c35a410c0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

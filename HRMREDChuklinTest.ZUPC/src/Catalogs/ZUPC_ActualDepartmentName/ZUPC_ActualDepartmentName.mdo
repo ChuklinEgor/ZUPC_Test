@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c169d5d-058d-474c-9abc-a97e08d9dcc9">
+  <producedTypes>
+    <objectType typeId="a9d273da-c110-42a7-8862-cad8897fef05" valueTypeId="b9f01ec2-716b-4560-9916-80fc60938804"/>
+    <refType typeId="df88df72-b0a9-49d5-8aa9-88221a0aa3a5" valueTypeId="5fd3ac26-4554-410e-a068-b5b4a718768a"/>
+    <selectionType typeId="602838f6-f907-43e1-a926-2bba903d8a69" valueTypeId="58ddae86-de9b-4ad3-9c12-d4792767b2a8"/>
+    <listType typeId="be241414-3d23-4ddb-90c8-11a7cb2b432c" valueTypeId="ab0f5464-6b2d-46c2-984d-a9e71a50a299"/>
+    <managerType typeId="0dcdaae0-b5dc-4ae1-869e-06d2fc3575dd" valueTypeId="7bcbf22a-7cd2-44c2-aad0-b3faab517bf6"/>
+  </producedTypes>
+  <name>ZUPC_ActualDepartmentName</name>
+  <synonym>
+    <key>ru</key>
+    <value>Actual department name (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ZUPC_ActualDepartmentName.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ZUPC_ActualDepartmentName.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.ZUPC_ActualDepartmentName.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="5e576a31-74d9-4bd0-9390-c54c8312bb03">
+    <name>НаименованиеRus</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование rus</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>70</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e43457ac-cce6-4889-bdd5-3cd35442f34f">
+    <name>Director</name>
+    <synonym>
+      <key>ru</key>
+      <value>Director</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5e65e24e-a02b-4e3c-940e-2e3f3dd222bd">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3f8cd1ea-dffc-41b8-830c-65e9da3cddf4">
+    <name>ZUPC_Locations</name>
+    <synonym>
+      <key>ru</key>
+      <value>Locations  (ZUPC)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ZUPC_Locations</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="46026286-af55-48f5-a44b-5b0f5b270cbc">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

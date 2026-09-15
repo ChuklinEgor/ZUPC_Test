@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c79609e-0e04-492e-9abc-f055b992e53b">
+  <producedTypes>
+    <objectType typeId="0d9c2398-8bb8-4ff3-ad3a-0340caef06b7" valueTypeId="119e45c7-fef4-4443-a174-cf37aca82f37"/>
+    <managerType typeId="d7ccc14f-2a27-4b92-8b31-4dd9cc1ae119" valueTypeId="e75e12e9-ba50-464c-a189-f8f7160083b4"/>
+  </producedTypes>
+  <name>ZUPC_ИзменениеФОТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение ФОТ (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_ИзменениеФОТ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="768bccf0-6b60-4393-a42d-ae0c413ceb84">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

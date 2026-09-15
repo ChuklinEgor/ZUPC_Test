@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b39b516a-ca3f-4146-89cb-df62cc07f340" extendedConfigurationObject="b2c547fd-343e-4bc1-9763-795b28132ed4">
+  <producedTypes>
+    <refType typeId="b8c9c754-b170-4b97-99e7-fc8548ab5a23" valueTypeId="494ef37f-2d8a-4eca-a8a6-0e5149ce25ec"/>
+    <listType typeId="48599d86-5ccc-4315-aa6f-1c4b60103885" valueTypeId="fc4b827d-ec0e-4f30-a49f-1e3117b60500"/>
+    <managerType typeId="a71ba3bd-671f-4416-8c2e-1ba55d97a13b" valueTypeId="d300a920-3934-4c28-842b-44a1ef007749"/>
+  </producedTypes>
+  <name>ВидыКадровыхСобытий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

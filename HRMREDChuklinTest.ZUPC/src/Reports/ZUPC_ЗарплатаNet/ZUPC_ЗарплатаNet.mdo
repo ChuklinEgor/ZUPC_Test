@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eea884e3-5051-4f95-87f0-a45bb08f7c92">
+  <producedTypes>
+    <objectType typeId="73d9cb3f-3f20-4c5c-a968-ad0e62575f31" valueTypeId="0d70c847-584e-4566-822a-e1b9f83c4da0"/>
+    <managerType typeId="47a815dc-39b2-4a96-bac1-8b8684dfcb78" valueTypeId="71e3b324-3e81-4265-b6d8-baa70f2d28f0"/>
+  </producedTypes>
+  <name>ZUPC_ЗарплатаNet</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата net (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_ЗарплатаNet.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="a95daf4d-2a9b-4b9d-9b93-f3ee5d04d8a9">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

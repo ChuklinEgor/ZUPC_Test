@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cbb3e38-ead4-40c5-bb4d-77e7e091b041">
+  <producedTypes>
+    <objectType typeId="9cb47290-7821-4b4d-8a73-a3f7bbd6fb5e" valueTypeId="1aabf955-8ea6-4218-9fc2-6d9778d67a9f"/>
+    <managerType typeId="0c7e5e74-0a5f-44c6-9dfb-59a2b293c0bd" valueTypeId="823d9f45-c14a-4579-9e80-e313b7a6ea63"/>
+  </producedTypes>
+  <name>ZUPC_ЗаполнениеРеквизитовУвольнений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение реквизитов увольнений (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ZUPC_ЗаполнениеРеквизитовУвольнений.Form.Форма</defaultForm>
+  <forms uuid="39a10dc6-608b-45ae-9800-af9031959f35">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

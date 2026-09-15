@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f616e6b-3014-48b3-ae5b-6592ca981039">
+  <producedTypes>
+    <objectType typeId="e651a4c6-0590-4e0b-9354-de6cb8c35679" valueTypeId="ef4d3091-3a52-4dc4-a9f9-4e3d876241b6"/>
+    <refType typeId="77c8cdb8-9119-4e65-aca6-dc6b5fa002f3" valueTypeId="ebc1deb0-883b-4494-a039-8498b8737cb8"/>
+    <selectionType typeId="b97c240e-d450-4823-bb46-b3c788c958e8" valueTypeId="ee310a99-923c-42b8-9e80-2985b77030be"/>
+    <listType typeId="fcaa1cf8-e5ef-4abb-ab0c-14c8c878f928" valueTypeId="f4c892de-b2e2-4930-9e2b-db82630be859"/>
+    <managerType typeId="e9d42937-ed2a-4b69-81da-2b095305baca" valueTypeId="224f006a-a7ba-491f-8426-7483ae8cc667"/>
+  </producedTypes>
+  <name>ZUPC_RemarksReasonOfLeaving</name>
+  <synonym>
+    <key>ru</key>
+    <value>Remarks reason of leaving (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ZUPC_RemarksReasonOfLeaving.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ZUPC_RemarksReasonOfLeaving.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

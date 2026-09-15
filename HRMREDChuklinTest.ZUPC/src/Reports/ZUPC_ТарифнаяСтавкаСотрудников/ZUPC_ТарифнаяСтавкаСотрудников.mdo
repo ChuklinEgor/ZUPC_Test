@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4640ab84-40a3-4dfb-8255-eac176f62705">
+  <producedTypes>
+    <objectType typeId="c293bee9-0fee-4d6b-aa34-b9d786d02310" valueTypeId="4f94864e-962f-4b06-b0f7-52e74511ea1a"/>
+    <managerType typeId="5553fbd9-23f8-4f8d-999e-7bc0926025b0" valueTypeId="ac5df84d-da5b-4fd3-9ba3-ef67040467db"/>
+  </producedTypes>
+  <name>ZUPC_ТарифнаяСтавкаСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифная ставка сотрудников (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_ТарифнаяСтавкаСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="318039c3-fe93-40f9-b9fb-3e9be94c57aa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

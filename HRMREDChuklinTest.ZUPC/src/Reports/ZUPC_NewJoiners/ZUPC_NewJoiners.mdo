@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb7747bb-fb19-4902-9795-070d85ee7fdb">
+  <producedTypes>
+    <objectType typeId="39e7cf8c-b5e1-4dc0-9a5f-7bbcd855549c" valueTypeId="83ee61e1-ac0a-4622-83c7-45b2ce6de8a4"/>
+    <managerType typeId="0795c9f8-b684-4086-bcbf-9b959bc16aa6" valueTypeId="152f6cfc-7637-4fc2-b7f6-c592c5d43b0d"/>
+  </producedTypes>
+  <name>ZUPC_NewJoiners</name>
+  <synonym>
+    <key>ru</key>
+    <value>New joiners (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_NewJoiners.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="b531ed0a-e4af-4ca6-aee9-16b18a66caf4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

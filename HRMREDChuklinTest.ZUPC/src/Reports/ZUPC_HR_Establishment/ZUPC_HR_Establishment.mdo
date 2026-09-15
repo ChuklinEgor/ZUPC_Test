@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee6c737f-549b-46fe-9b65-dd89af3e3b9b">
+  <producedTypes>
+    <objectType typeId="687840cb-fdda-4b76-8b1f-c4b0f73cc213" valueTypeId="5c857d2c-c929-4ed1-bbcf-77d20007742a"/>
+    <managerType typeId="a89a7f90-9a14-4654-829b-85c2011d28dd" valueTypeId="146c10af-5e20-4912-8375-2ba3134f590b"/>
+  </producedTypes>
+  <name>ZUPC_HR_Establishment</name>
+  <synonym>
+    <key>ru</key>
+    <value>HR Establishment (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPC_HR_Establishment.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="4fbbb6d9-ae5b-45b8-9d5d-cac5d95bc9bd">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

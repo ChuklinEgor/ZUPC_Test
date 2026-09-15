@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2b8fa76b-1741-4bbf-9d8d-9f43ba015663" extendedConfigurationObject="f7417e62-fe98-4e00-832d-a5d7905b3c6a">
+  <producedTypes>
+    <refType typeId="b3bbcad8-a8b8-4eda-9ce9-aaef7d4462fd" valueTypeId="aa987ef1-0fcb-4010-b472-bd65954147b3"/>
+    <listType typeId="9a2830b5-8ab9-43cc-b971-009c40231c6a" valueTypeId="d3521bf5-8093-4d0c-adce-1af86517fe19"/>
+    <managerType typeId="60841645-790d-4c2d-9c55-de704ed78cd9" valueTypeId="362b77f7-6393-4113-9a7a-fc0aa6ff75bd"/>
+  </producedTypes>
+  <name>СпособыРасчетаАванса</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

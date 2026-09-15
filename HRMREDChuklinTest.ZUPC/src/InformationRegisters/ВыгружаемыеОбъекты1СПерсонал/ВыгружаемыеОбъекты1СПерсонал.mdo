@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d1218027-4e4a-40c3-8c5b-3ac5094f1efe" extendedConfigurationObject="bf711791-6d6b-4f1b-9153-ffb4a7b58d55">
+  <producedTypes>
+    <selectionType typeId="3610b9e9-2cfc-449a-862d-cd5399fd00da" valueTypeId="3304f391-3e39-4e71-9ac6-b2a02ef77ffb"/>
+    <listType typeId="9c9f71f1-c15e-4c38-937e-b6b71d710e59" valueTypeId="2db6c8e8-df67-4e15-b963-88a3d90a6739"/>
+    <managerType typeId="73872417-bb8d-4bb8-b2dc-159f78d277d9" valueTypeId="20d4966d-7527-41af-a616-ce0d7a62b204"/>
+    <recordSetType typeId="081abbb8-27b2-4023-820a-76e8117ec03a" valueTypeId="bc79570a-4474-46fd-95e0-4c9956391f73"/>
+    <recordKeyType typeId="9fa2d370-66dc-4be3-9c5d-598c5c218d3b" valueTypeId="b01c9fa8-d677-43ad-b5b8-27d9a183100f"/>
+    <recordType typeId="733023fb-454b-4e5d-9982-afa4348cad67" valueTypeId="2c64c3f7-760a-4ba5-a022-c14ab9316d99"/>
+    <recordManagerType typeId="27fef97f-2fd0-4e2c-8935-b879a71a2cd4" valueTypeId="3d12fd08-253d-4d07-8414-9833ca807f82"/>
+  </producedTypes>
+  <name>ВыгружаемыеОбъекты1СПерсонал</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="28b4e5dd-8506-4924-bc3b-dee3abdd3220" extendedConfigurationObject="8e62a946-6c19-4490-b8f8-8dac21835ddb">
+    <name>Ссылка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.СсылкаПубликации1СПерсонал</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

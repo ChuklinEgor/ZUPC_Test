@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="222e6937-0369-4e26-b171-c6bd9fcb7b26">
+  <producedTypes>
+    <selectionType typeId="1e268968-172d-45c4-b1c8-c5753ff87d61" valueTypeId="688d5b3a-f6a5-4eb6-972a-650a9cb0b9db"/>
+    <listType typeId="a5652327-c0ac-49df-b87e-7006d344dba0" valueTypeId="b4c7dacb-cc92-407f-808a-df30a8823e76"/>
+    <managerType typeId="7806e961-6e1f-4885-8ad4-1256235f206e" valueTypeId="7ffd3eaf-d269-47a3-9a78-4f264eb196f0"/>
+    <recordSetType typeId="8d020852-8372-4112-bdec-6a29dbc9ac72" valueTypeId="65657b10-4754-4691-b9b2-f7ba65d68542"/>
+    <recordKeyType typeId="c447257e-d2c8-4021-84d3-69459b4d24c1" valueTypeId="48dfbfed-6e4f-472f-9afc-6ff063c91da8"/>
+    <recordType typeId="624b90ac-cd17-4919-a1a1-7099e65b59bb" valueTypeId="90fc2ff7-5b65-4376-9989-3a62ef388803"/>
+    <recordManagerType typeId="6f2c2c20-2512-4610-8459-6b85913446ef" valueTypeId="53bf3dbd-6a65-4f4c-92c9-46e426b3e563"/>
+  </producedTypes>
+  <name>ZUPC_TalentReview</name>
+  <synonym>
+    <key>ru</key>
+    <value>Talent review (ZUPC)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="38bd6bb5-e466-42b1-9a15-89b0148e58cf">
+    <name>ZUPC_Potential</name>
+    <synonym>
+      <key>ru</key>
+      <value>Potential (ZUPC)</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ZUPC_Potential</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3c8fadbb-851c-40b7-a776-0706f57ab649">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=yyyy</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="adc5918a-a7a1-4896-b02d-1b74b37ea4b7">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

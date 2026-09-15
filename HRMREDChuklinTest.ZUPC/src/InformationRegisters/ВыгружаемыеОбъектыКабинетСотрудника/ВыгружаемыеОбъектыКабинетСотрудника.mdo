@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9a676179-5f24-4df2-82da-2bfa7186c6c6" extendedConfigurationObject="198a1426-e88c-49ce-b952-d9eaf7767e3c">
+  <producedTypes>
+    <selectionType typeId="1087437b-f408-436e-bce6-876c5035abc5" valueTypeId="921b8a26-7adf-46f7-a4f1-da9d91060c3c"/>
+    <listType typeId="384380bf-fb9d-4d0b-89cb-6c655eaa24ed" valueTypeId="dc750396-c798-4425-b7dc-9914626002b7"/>
+    <managerType typeId="45014cbf-9e27-4f5a-ac05-a8d93af34880" valueTypeId="e55b2f6a-1101-4002-9d17-d7afbec99398"/>
+    <recordSetType typeId="5709a117-9492-4627-9822-0436ab38b423" valueTypeId="6baee6b2-c0bf-45c8-8695-6946a59e3200"/>
+    <recordKeyType typeId="f5a038a1-8024-48f4-ab22-8b4091a8d060" valueTypeId="b3712d77-e8ae-4119-9fd7-e8825a2e6216"/>
+    <recordType typeId="41cf4633-cfaa-45ff-a134-2c65a9d52fec" valueTypeId="9af6d887-0fe5-41ba-a441-dc386b127d3c"/>
+    <recordManagerType typeId="cbb3bacc-1215-44ca-bf50-57fbf2110b28" valueTypeId="1a2f073f-6f03-441f-964a-829e6664fe9d"/>
+  </producedTypes>
+  <name>ВыгружаемыеОбъектыКабинетСотрудника</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="d4f6836b-df58-487c-8c0c-6eb95234e0d9" extendedConfigurationObject="cb35dd98-9063-4336-8f1b-2dca00666e49">
+    <name>Ссылка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.СсылкаПубликацииКабинетСотрудника</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

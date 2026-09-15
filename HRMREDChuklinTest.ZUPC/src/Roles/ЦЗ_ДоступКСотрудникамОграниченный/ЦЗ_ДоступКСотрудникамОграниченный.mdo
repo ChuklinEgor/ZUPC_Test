@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c755094-47c3-42b5-97a2-d680a44c6fdb">
+  <name>ЦЗ_ДоступКСотрудникамОграниченный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ к сотрудникам ограниченный (ЦЗ)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca74da76-d8f7-488b-b84a-899ccec76f1c">
+  <producedTypes>
+    <objectType typeId="1d64e590-a1f0-452c-92f7-a083e3f43c34" valueTypeId="f45c1a03-b556-4c8f-9c4f-2abcd3a3f4ce"/>
+    <managerType typeId="c86962aa-f33f-4814-b4f6-dab0c349f43e" valueTypeId="d83d725c-bc28-43b7-813b-082ab8323f83"/>
+  </producedTypes>
+  <name>ZUPС_HR_MonthlyReport</name>
+  <synonym>
+    <key>ru</key>
+    <value>HR Monthly report</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ZUPС_HR_MonthlyReport.Template.Макет</mainDataCompositionSchema>
+  <templates uuid="91539a0b-261b-4ccd-91c0-acc6c2ed7ba1">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

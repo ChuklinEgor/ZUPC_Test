@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5503c7f2-0357-4912-9f59-77f67dd02fcf" extendedConfigurationObject="1fa5352d-51f3-47e9-8769-0776fa7caf40">
+  <producedTypes>
+    <refType typeId="509625fd-4df6-4e44-bf5b-039fa9760ff4" valueTypeId="9de93e77-0cfa-4f80-a2da-19d4517129b1"/>
+    <listType typeId="8afbc3b1-a821-4820-accc-0c0f60cc6f9b" valueTypeId="51bfaee7-8e9f-4f40-9e3b-9dd1529f3655"/>
+    <managerType typeId="8680353d-c9b9-4628-b1f6-c60af78ec8af" valueTypeId="5c8f36a7-485c-4b54-a505-b7d743a1a3a6"/>
+  </producedTypes>
+  <name>ОснованияФинансированияПособияФедеральнымБюджетом</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>
