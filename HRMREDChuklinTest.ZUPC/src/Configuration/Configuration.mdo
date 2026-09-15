@@ -82,6 +82,7 @@
   <commandGroups>CommandGroup.Документы</commandGroups>
   <commandGroups>CommandGroup.Отчеты</commandGroups>
   <commandGroups>CommandGroup.РегистрыСведений</commandGroups>
+  <constants>Constant.ZUPC_TestGit</constants>
   <catalogs>Catalog.СтруктураПредприятия</catalogs>
   <catalogs>Catalog.ПодразделенияОрганизаций</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>

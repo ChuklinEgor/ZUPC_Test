@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d3c4240-5ea6-41a3-8494-1d5f6b2b94aa">
+  <producedTypes>
+    <managerType typeId="af9ab0b9-d46f-4e50-9c90-5368e08db233" valueTypeId="7853cba5-cf55-46be-b8bc-df9d04f137bc"/>
+    <valueManagerType typeId="8ef06b41-8d67-4aed-8828-d5a8b2623791" valueTypeId="14b7eb34-663b-410d-869d-236a53e0ea52"/>
+    <valueKeyType typeId="21f07f72-1763-4ff4-898e-3a80578e22d2" valueTypeId="93602605-e640-4d11-8479-3277e35a332d"/>
+  </producedTypes>
+  <name>ZUPC_TestGit</name>
+  <synonym>
+    <key>ru</key>
+    <value>Test git</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
