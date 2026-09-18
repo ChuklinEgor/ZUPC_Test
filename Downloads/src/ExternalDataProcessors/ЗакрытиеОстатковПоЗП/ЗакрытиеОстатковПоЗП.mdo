@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c92254f5-0c20-4f31-a04a-b9ac8a97bf4a">
+  <producedTypes>
+    <objectType typeId="046a9d25-af92-4ced-978c-7e35dcc3c1af" valueTypeId="3a6d8481-8419-411d-b83d-f74b4188575e"/>
+  </producedTypes>
+  <name>ЗакрытиеОстатковПоЗП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие остатков по ЗП</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="6d862b13-8748-4733-b778-a515153415d2"/>
+  <defaultForm>ExternalDataProcessor.ЗакрытиеОстатковПоЗП.Form.Форма</defaultForm>
+  <attributes uuid="840c931b-4af6-4348-836a-efee34a5c4f2">
+    <name>ЗакрыватьЗарплатуКВыплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрывать зарплату к выплате</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="850b7e61-1ee5-4e9d-ae63-d0b0818b4a28">
+    <name>ЗакрыватьВзаиморасчетыССотрудниками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрывать взаиморасчеты с сотрудниками</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="28b06c37-0844-49ca-8d4e-5b065b64bce4">
+    <name>ЗакрыватьБухгалтерскиеВзаиморасчетыССотрудниками</name>
+    <synonym>
+      <key>ru</key>
+      <value>       Закрывать бухгалтерские взаиморасчеты с сотрудниками</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0e265a09-ebb2-4477-a071-48cbe98b0f11">
+    <name>ПериодРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период регистрации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="52d4987e-187b-47ab-bcb6-d17c821715e6">
+    <name>ЗакрыватьРасчетыНалоговыхАгентовСБюджетомПоНДФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрывать расчеты налоговых агентов с бюджетом по НДФЛ(перечисленный)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6b55f22c-3ce5-461e-bc80-7ba45d8fe86e">
+    <name>ЗакрыватьРасчетыНалогоплательщиковСБюджетомПоНДФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрывать расчеты налогоплательщиков с бюджетом по НДФЛ(удержанный)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a676b785-5107-4e4b-8d96-3078d39c04cf">
+    <name>СкопироватьВзаиморасчетыВБухгалтерскиеВзаиморасчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>       Скопировать взаиморасчеты в бухгалтерские взаиморасчеты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4f696010-89fe-4feb-aa4c-60ff00ea48e3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
